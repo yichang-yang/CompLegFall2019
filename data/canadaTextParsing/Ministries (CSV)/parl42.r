@@ -58,6 +58,9 @@ new_ministry <- new_ministry %>%
   mutate(protfolio_number = 1:233)
 
 
+class(xmldata$date)
+
+
 new_ministry<-new_ministry %>%
   arrange(Last.Name, First.Name, constituency_name)%>%
   group_by(ministry_number) %>%
