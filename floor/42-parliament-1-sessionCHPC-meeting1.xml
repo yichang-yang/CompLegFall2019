@@ -1,0 +1,2430 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="Cache-Control" content="max-age=3600, must-revalidate" />
+    <meta name="Pragma" content="no-cache" />
+    <meta name="Expires" content="0" />
+    <meta http-equiv="X-XSS-Protection" content="1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Follow our democracy in action! See what's happening today in the House and in committee meetings, as well as news and events" />
+    
+    <title>Welcome to the House of Commons of Canada</title>
+    <script type='text/javascript' src='/CommonElements/js/jquery-3.1.1.min.js'></script>
+<script type='text/javascript' src='/CommonElements/js/bootstrap.min.js'></script>
+<script type='text/javascript' src='/CommonElements/js/ce-hoc.min.js'></script>
+<link rel='stylesheet' type='text/css' media='all' href='/CommonElements/styles/bootstrap.min.css' />
+<link rel='stylesheet' type='text/css' media='all' href='/CommonElements/styles/hoc-icons.min.css' />
+<link rel='stylesheet' type='text/css' media='all' href='/CommonElements/styles/ce-hoc-main.min.css' />
+<link rel='stylesheet' type='text/css' media='all' href='/CommonElements/styles/ce-hoc-mobile.min.css' />
+<script type='text/javascript' src='/CommonElements/js/jquery.signalR-2.2.1.min.js'></script>
+<script> var CommonElements = {}; CommonElements.Analytics = {}; CommonElements.Analytics.Dimensions = []; CommonElements.Analytics.Dimensions.push({ MappingId: "dimension2", Value: "House of Commons"}); //Institution
+CommonElements.Analytics.Dimensions.push({ MappingId: "dimension3", Value: "0"}); //IsHocUser
+CommonElements.Analytics.Dimensions.push({ MappingId: "dimension6", Value: "42"}); //CurrentParliament
+CommonElements.Analytics.Dimensions.push({ MappingId: "dimension7", Value: "1"}); //CurrentSession
+CommonElements.Analytics.Dimensions.push({ MappingId: "dimension8", Value: "Parliament Dissolved"}); //ParliamentaryCycleState
+CommonElements.Analytics.Dimensions.push({ MappingId: "dimension9", Value: "false"}); //IsHouseSittingDay
+CommonElements.Analytics.Dimensions.push({ MappingId: "dimension10", Value: "false"}); //IsHouseCurrentlySitting
+CommonElements.Analytics.Dimensions.push({ MappingId: "dimension11", Value: "false"}); //IsCommitteeEventInProgress
+ </script>
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create','UA-77093487-1', 'auto');for(var i = 0; i < CommonElements.Analytics.Dimensions.length; i++){ga('set', CommonElements.Analytics.Dimensions[i].MappingId,CommonElements.Analytics.Dimensions[i].Value);}ga('send', 'pageview');</script>
+<script>$(function(){$('[data-analytics-eventcategory]').click(function(){ga('send', 'event', $(this).data('analytics-eventcategory'), $(this).data('analytics-eventaction'), $(this).data('analytics-eventlabel'));});$('#ce-hoc-search-submit').click(function(){ga('send', 'event', $(this).data('analytics-eventcategory'), $(this).data('analytics-eventaction'), $('#ce-hoc-sitesearch-location').val());});});</script>
+
+    <link href="/bundles/css?v=pYf2ZHyojgaVneHRpvRK1p05u6tAqkYBXFr1EGF8o_U1" rel="stylesheet"/>
+
+    <link href="/Assets/Styles/Site.css" rel="stylesheet" />
+    <noscript><link href="/bundles/css-no-js?v=jDnV4DOjzuIj0-j052M47wucYsh9lbDUG8eZyLSWRgo1" rel="stylesheet"/>
+</noscript>
+</head>
+
+<body class="body-wrapper">
+
+    <!-- Skip to Content -->
+			<a href="#StartOfContent" class="ce-hoc-skipnav sr-only sr-only-focusable">Skip to main content</a>
+			<!-- Parliament Header -->
+			<div id="ce-parl-header" role="banner" class="ce-parl-header hidden-print">
+				<div class="container">
+					<a href="//www.parl.ca" class="ce-parl-btn pull-left" data-analytics-eventcategory="Parliament Common Elements Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Parliament Site" >Parliament of Canada</a>
+					<ul class="pull-right" role="menu">
+						<li role="menuitem">
+							<a href="https://visit.parl.ca/index-e.html" class="hoccmn-parent-org" data-analytics-eventcategory="Parliament Common Elements Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Visit Parliament" rel="external">
+								<span class="hidden-xs">Visit Parliament</span>
+								<span class="visible-xs">Visit</span>
+							</a>
+						</li>
+						<li role="menuitem">
+							<a href="https://www.noscommunes.ca:443/fr/accueil" class="hoccmn-parent-org" data-analytics-eventcategory="Parliament Common Elements Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Language Switch" >
+								<span lang="fr-CA" class="hidden-xs">Français</span>
+								<span lang="fr-CA" class="visible-xs">FR</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- HoC Header -->
+			<nav id="ce-hoc-header" class="ce-hoc-nav navbar navbar-default">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" data-toggle="collapse" data-target="#ce-hoc-nav" class="navbar-toggle">
+							<span class="ce-hoc-nav-hamburger">
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</span>
+							<span class="ce-hoc-nav-lbl-menu">
+								Menu
+							</span>
+						</button>
+						<a href="//www.ourcommons.ca" class="navbar-brand" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="HoC Crest" >
+							<img src="/CommonElements/Images/ce-hoc-emblem-e.png" alt="House of Commons" />
+						</a>
+					</div>
+					<div id="ce-hoc-nav" class="navbar-collapse collapse">
+						<ul class="nav navbar-nav">
+							<li class="dropdown">
+								<a href="javascript: void(0);" data-toggle="dropdown" class="dropdown-toggle" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Parliamentary Business">
+									Parliamentary Business
+								</a>
+								<ul id="ce-hoc-nav-parliamentary-business" class="dropdown-menu">
+									<li>
+										<div class="ce-hoc-dropdown-menu-content">
+											<div class="row">
+												<div class="col-sm-12">
+													<a href="//www.ourcommons.ca/en/parliamentary-business" class="btn ce-hoc-btn-landing" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Parliamentary Business" >
+														Parliamentary Business - Home
+													</a>
+												</div>
+											</div>
+											<div class="row">
+												<div class="panel-group" id="ce-hoc-nav-parliamentary-business-panel-group">
+													<div class="col-md-3">
+														<div class="ce-hoc-panel-title">
+															<a class="accordion-toggle" data-toggle="collapse" href="#ce-hoc-nav-parlbus-house" tabindex="-1" data-parent="#ce-hoc-nav-parliamentary-business-panel-group">
+																The House
+															</a>
+														</div>
+														<div id="ce-hoc-nav-parlbus-house" class="panel-collapse collapse ce-hoc-collapsible-content">
+															<ul class="ce-hoc-list-group-item" role="menu">
+																<li role="menuitem"><a href="//www.ourcommons.ca/en/sitting-calendar" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Sitting Calendar" >Sitting Calendar</a></li>
+																<li role="menuitem"><a href="//www.ourcommons.ca/documentviewer/en/house/latest-sitting" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="House Publications" >House Publications</a></li>
+																<li role="menuitem"><a href="//www.parl.ca/LegisInfo/Home.aspx?Language&#x3D;E&amp;Mode&#x3D;1" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Bills (LEGISinfo)" >Bills (LEGIS<i>info</i>)</a></li>
+																<li role="menuitem"><a href="https://petitions.ourcommons.ca/en/Home/Index" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="E-petitions" >Petitions</a></li>
+																<li role="menuitem"><a href="//www.ourcommons.ca/parliamentarians/en/votes" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Votes" >Votes</a></li>
+																<li role="menuitem"><a href="//www.ourcommons.ca/Search/en/publications/hansard" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Search the Debates (Hansard)" >Search the Debates (Hansard)</a></li>
+																<li role="menuitem"><a href="//www.ourcommons.ca/documentviewer/en/house/status-business" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Status of House Business" >Status of House Business</a></li>
+															</ul>
+														</div>
+													</div>
+													<div class="col-md-3">
+														<div class="ce-hoc-panel-title">
+															<a class="accordion-toggle" data-toggle="collapse" href="#ce-hoc-nav-parlbus-committees" tabindex="-1" data-parent="#ce-hoc-nav-parliamentary-business-panel-group">
+																Committees
+															</a>
+														</div>
+														<div id="ce-hoc-nav-parlbus-committees" class="panel-collapse collapse ce-hoc-collapsible-content">
+															<ul class="ce-hoc-list-group-item" role="menu">
+																<li role="menuitem"><a href="//www.ourcommons.ca/Committees/en/Home" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="List of Committees and Overview" >List of Committees and Overview</a></li>
+																<li role="menuitem"><a href="//www.ourcommons.ca/Committees/en/Meetings" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Meetings" >Meetings</a></li>
+																<li role="menuitem"><a href="//www.parl.ca/LegisInfo/BillsBeforeCommittee.aspx?Language&#x3D;E" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Bills in Committee (LEGISinfo)" >Bills in Committee (LEGIS<i>info</i>)</a></li>
+																<li role="menuitem"><a href="//www.ourcommons.ca/Committees/en/Work" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Studies, Activities and Reports" >Studies, Activities and Reports</a></li>
+																<li role="menuitem"><a href="//www.ourcommons.ca/Search/en/publications/evidence" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Search the Transcripts" >Search the Transcripts</a></li>
+																<li role="menuitem"><a href="//www.ourcommons.ca/Committees/en/Participate" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Participate" >Participate</a></li>
+															</ul>
+														</div>
+													</div>
+													<div class="col-md-3">
+														<div class="ce-hoc-panel-title">
+															<a class="accordion-toggle" data-toggle="collapse" href="#ce-hoc-nav-parlbus-resources" tabindex="-1" data-parent="#ce-hoc-nav-parliamentary-business-panel-group">
+																Resources
+															</a>
+														</div>
+														<div id="ce-hoc-nav-parlbus-resources" class="panel-collapse collapse ce-hoc-collapsible-content">
+															<ul class="ce-hoc-list-group-item" role="menu">
+																<li role="menuitem"><a href="//www.ourcommons.ca/About/ProceduralReferences/Index-e.html" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Procedural Reference Material" >Procedural Reference Material</a></li>
+															</ul>
+															<div class="ce-hoc-groupbox">
+																<span>Library of Parliament</span>
+																<div class="clearfix"></div>
+																<ul class="ce-hoc-list-group-item" role="menu">
+																	<li role="menuitem">
+																		<a href="https://lop.parl.ca/sites/PublicWebsite/default/en_CA/ResearchPublications/LegislativeSummaries" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Legislative Summaries" rel="external">Legislative Summaries</a>
+																	</li>
+																	<li role="menuitem">
+																		<a href="https://lop.parl.ca/About/Library/VirtualLibrary/research-for-parliament-e.html" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Research Publications" rel="external">Research Publications</a>
+																	</li>
+																	<li role="menuitem">
+																		<a href="http://parl.canadiana.ca/?usrlang&#x3D;en" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Historical Debates and Journals (1867-1993)" rel="external"><div class='deacrease-letter-spacing'>Historical Debates and Journals (1867-1993)</div></a>
+																	</li>
+																</ul>
+															</div>
+														</div>
+													</div>
+													<div class="col-md-3">
+														<div class="ce-hoc-panel-title">
+															<a class="accordion-toggle" data-toggle="collapse" href="#ce-hoc-nav-parlbus-parliamentary-diplomacy" tabindex="-1" data-parent="#ce-hoc-nav-parliamentary-business-panel-group">
+																Parliamentary Diplomacy
+															</a>
+														</div>
+														<div id="ce-hoc-nav-parlbus-parliamentary-diplomacy" class="panel-collapse collapse ce-hoc-collapsible-content">
+															<ul class="ce-hoc-list-group-item" role="menu">
+																<li role="menuitem"><a href="//www.parl.ca/diplomacy/en" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Diplomacy - Home" >Parliamentary Diplomacy - Home</a></li>
+																<li role="menuitem"><a href="//www.parl.ca/diplomacy/en/speakers/activities-and-reports" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Speakers&#x27; Activities" >Speakers' Activities</a></li>
+																<li role="menuitem"><a href="//www.parl.ca/diplomacy/en/associations" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Parliamentary Associations" >Parliamentary Associations</a></li>
+																<li role="menuitem"><a href="//www.parl.ca/diplomacy/en/speakers/visits-and-events" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Visits and Events" >Visits and Events</a></li>
+																<li role="menuitem"><a href="//www.parl.ca/diplomacy/en/conferences" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Conferences" >Conferences</a></li>
+																<li role="menuitem"><a href="//www.parl.ca/diplomacy/en/speakers/posp" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Parliamentary Officers&#x27; Study Program" >Parliamentary Officers' Study Program</a></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="javascript: void(0);" data-toggle="dropdown" class="dropdown-toggle" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Members">
+									Members
+								</a>
+								<ul id="ce-hoc-nav-members" class="dropdown-menu">
+									<li>
+										<div class="ce-hoc-dropdown-menu-content">
+											<div class="row">
+												<div class="col-sm-12">
+													<a href="//www.ourcommons.ca/en/members" class="btn ce-hoc-btn-landing" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Members" >
+														Members - Home
+													</a>
+												</div>
+											</div>
+											<div class="row">
+												<div class="panel-group" id="ce-hoc-nav-members-panel-group">
+													<div class="col-md-4">
+														<div class="ce-hoc-panel-title">
+															<a class="accordion-toggle" data-toggle="collapse" href="#ce-hoc-nav-members-roles" tabindex="-1" data-parent="#ce-hoc-nav-members-panel-group">
+																Members and Roles
+															</a>
+														</div>
+														<div id="ce-hoc-nav-members-roles" class="panel-collapse collapse ce-hoc-collapsible-content">
+															<ul class="ce-hoc-list-group-item" role="menu">
+																<li role="menuitem"><a href="//www.ourcommons.ca/Members/en" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Members of Parliament" >Members of Parliament</a></li>
+																<li role="menuitem"><a href="//www.ourcommons.ca/Speaker/en" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="The Speaker" >The Speaker</a></li>
+																<li role="menuitem"><a href="//www.ourcommons.ca/Members/en/ministries" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Ministry (Cabinet)" >Ministry (Cabinet)</a></li>
+																<li role="menuitem"><a href="//www.ourcommons.ca/Members/en/parliamentary-secretaries" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Parliamentary Secretaries" >Parliamentary Secretaries</a></li>
+																<li role="menuitem"><a href="//www.ourcommons.ca/Parliamentarians/en/membership#Section-GetHouseOfficers" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Party Leaders and other House Officers" >Party Leaders and other House Officers</a></li>
+															</ul>
+														</div>
+													</div>
+													<div class="col-md-4">
+														<div class="ce-hoc-panel-title">
+															<a class="accordion-toggle" data-toggle="collapse" href="#ce-hoc-nav-members-related-information" tabindex="-1" data-parent="#ce-hoc-nav-members-panel-group">
+																Related Information
+															</a>
+														</div>
+														<div id="ce-hoc-nav-members-related-information" class="panel-collapse collapse ce-hoc-collapsible-content">
+															<ul class="ce-hoc-list-group-item" role="menu">
+																<li role="menuitem"><a href="//www.ourcommons.ca/Parliamentarians/en/partystandings" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Party Standings" >Party Standings</a></li>
+																<li role="menuitem"><a href="//www.ourcommons.ca/Members/en/floorplan" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Seating Plan" >Seating Plan</a></li>
+																<li role="menuitem"><a href="//www.ourcommons.ca/PublicDisclosure/UnderstandingReport.aspx?Language&#x3D;E" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Members&#x27; Expenditures" >Members' Expenditures</a></li>
+																<li role="menuitem"><a href="//www.ourcommons.ca/boie/en/reports-and-disclosure#dt" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Registry of Designated Travellers" >Registry of Designated Travellers</a></li>
+																<li role="menuitem"><a href="//www.ourcommons.ca/about/schedules/MembersTypicalWeek-e.html" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="A Member&#x27;s Typical Week" >A Member's Typical Week</a></li>
+															</ul>
+														</div>
+													</div>
+													<div class="col-md-4">
+														<div class="ce-hoc-panel-title">
+															<a class="accordion-toggle" data-toggle="collapse" href="#ce-hoc-nav-members-resources" tabindex="-1" data-parent="#ce-hoc-nav-members-panel-group">
+																Resources
+															</a>
+														</div>
+														<div id="ce-hoc-nav-members-resources" class="panel-collapse collapse ce-hoc-collapsible-content">
+															<ul class="ce-hoc-list-group-item" role="menu">
+																<li role="menuitem"><a href="//www.ourcommons.ca/Members/en/addresses" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Contact Members of Parliament" >Contact Members of Parliament</a></li>
+																<li role="menuitem"><a href="//www.ourcommons.ca/Members/en/constituencies" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Constituencies" >Constituencies</a></li>
+															</ul>
+															<div class="ce-hoc-groupbox">
+																<span>Library of Parliament</span>
+																<div class="clearfix"></div>
+																<ul class="ce-hoc-list-group-item" role="menu">
+																	<li role="menuitem">
+																		<a href="https://lop.parl.ca/sites/ParlInfo/default/en_CA" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Historical Information (PARLINFO)" rel="external">Historical Information (PARLINFO)</a>
+																	</li>
+																</ul>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="javascript: void(0);" data-toggle="dropdown" class="dropdown-toggle" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Participate">
+									Participate
+								</a>
+								<ul id="ce-hoc-nav-participate" class="dropdown-menu">
+									<li>
+										<div class="ce-hoc-dropdown-menu-content">
+											<div class="row">
+												<div class="col-sm-12">
+													<a href="//www.ourcommons.ca/en/participate" class="btn ce-hoc-btn-landing" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Participate" >
+														Participate - Home
+													</a>
+												</div>
+											</div>
+											<div class="row">
+												<div class="panel-group" id="ce-hoc-nav-participate-panel-group">
+													<div class="col-md-4">
+														<div class="ce-hoc-panel-title">
+															<a class="accordion-toggle" data-toggle="collapse" href="#ce-hoc-nav-participate-house" tabindex="-1" data-parent="#ce-hoc-nav-participate-panel-group">
+																The House
+															</a>
+														</div>
+														<div id="ce-hoc-nav-participate-house" class="panel-collapse collapse ce-hoc-collapsible-content">
+															<ul class="ce-hoc-list-group-item" role="menu">
+																<li role="menuitem"><a href="https://visit.parl.ca/visit-e.html#live-debates" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Attend Live Debates" rel="external">Attend Live Debates</a></li>
+																<li role="menuitem"><a href="https://parlvu.parl.gc.ca/harmony/en" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Watch and Listen to Chamber Proceedings" rel="external">Watch and Listen to Chamber Proceedings</a></li>
+																<li role="menuitem"><a href="https://petitions.ourcommons.ca/en/Home/Index" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Create or Sign an E-petitions" >Create or Sign a Petition</a></li>
+																<li role="menuitem"><a href="//www.ourcommons.ca/About/Schedules/DailyOrderOfBusiness-e.html" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="A Typical Week at the House" >A Typical Week at the House</a></li>
+																<li role="menuitem"><a href="//www.ourcommons.ca/Members/en/addresses" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Contact a Member of Parliament" >Contact a Member of Parliament</a></li>
+																<li role="menuitem"><a href="//www.parl.ca/LegisInfo/Home.aspx?Language&#x3D;E&amp;Mode&#x3D;1" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Follow a Bill (LEGISinfo)" >Follow a Bill (LEGIS<i>info</i>)</a></li>
+															</ul>
+														</div>
+													</div>
+													<div class="col-md-4">
+														<div class="ce-hoc-panel-title">
+															<a class="accordion-toggle" data-toggle="collapse" href="#ce-hoc-nav-participate-committees" tabindex="-1" data-parent="#ce-hoc-nav-participate-panel-group">
+																Committees
+															</a>
+														</div>
+														<div id="ce-hoc-nav-participate-committees" class="panel-collapse collapse ce-hoc-collapsible-content">
+															<ul class="ce-hoc-list-group-item" role="menu">
+																<li role="menuitem"><a href="//www.ourcommons.ca/Committees/en/Participate#attend" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Attend Meetings" >Attend Meetings</a></li>
+																<li role="menuitem"><a href="https://parlvu.parl.gc.ca/harmony/en" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Watch and Listen to Committee Proceedings" rel="external">Watch and Listen to Committee Proceedings</a></li>
+																<li role="menuitem"><a href="//www.ourcommons.ca/Committees/en/Participate#participate" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Current Consultations" >Current Consultations</a></li>
+																<li role="menuitem"><a href="//www.ourcommons.ca/Committees/en/Participate" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="How to Submit a Brief and Appear" >How to Submit a Brief and Appear</a></li>
+																<li role="menuitem"><a href="//www.ourcommons.ca/Committees/Content/images/participate/committee-room-layout-large-e.png" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Layout of a Typical Committee Room" >Layout of a Typical Committee Room</a></li>
+																<li role="menuitem"><a href="//www.ourcommons.ca/Committees/en/ContactUs" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Contact a Committee" >Contact a Committee</a></li>
+															</ul>
+														</div>
+													</div>
+													<div class="col-md-4">
+														<div class="ce-hoc-panel-title">
+															<a class="accordion-toggle" data-toggle="collapse" href="#ce-hoc-nav-participate-resources" tabindex="-1" data-parent="#ce-hoc-nav-participate-panel-group">
+																Resources
+															</a>
+														</div>
+														<div id="ce-hoc-nav-participate-resources" class="panel-collapse collapse ce-hoc-collapsible-content">
+															<ul class="ce-hoc-list-group-item" role="menu">
+																<li role="menuitem"><a href="//www.ourcommons.ca/About/ProceduralReferences/Index-e.html" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Procedural Reference Material" >Procedural Reference Material</a></li>
+															</ul>
+															<div class="ce-hoc-groupbox">
+																<span>Library of Parliament</span>
+																<div class="clearfix"></div>
+																<ul class="ce-hoc-list-group-item" role="menu">
+																	<li role="menuitem">
+																		<a href="https://lop.parl.ca/About/Parliament/Education/classroom-activities-e.html" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Classroom Activities" rel="external">Classroom Activities</a>
+																	</li>
+																	<li role="menuitem">
+																		<a href="https://lop.parl.ca/About/Parliament/Education/teacher-resources-e.html" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Teacher Resources" rel="external">Teacher Resources</a>
+																	</li>
+																	<li role="menuitem">
+																		<a href="https://lop.parl.ca/About/Parliament/Education/teachers-institute-e.html" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Teachers Institute" rel="external">Teachers Institute</a>
+																	</li>
+																</ul>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="javascript: void(0);" data-toggle="dropdown" class="dropdown-toggle" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="About the House">
+									About the House
+								</a>
+								<ul id="ce-hoc-nav-about" class="dropdown-menu">
+									<li>
+										<div class="ce-hoc-dropdown-menu-content">
+											<div class="row">
+												<div class="col-sm-12">
+													<a href="//www.ourcommons.ca/en/about-the-house" class="btn ce-hoc-btn-landing" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="About the House" >
+														About the House - Home
+													</a>
+												</div>
+											</div>
+											<div class="row">
+												<div class="panel-group" id="ce-hoc-nav-about-panel-group">
+													<div class="col-md-4">
+														<div class="ce-hoc-panel-title">
+															<a class="accordion-toggle" data-toggle="collapse" href="#ce-hoc-nav-about-transparency-accountability" tabindex="-1" data-parent="#ce-hoc-nav-about-panel-group">
+																Transparency and accountability
+															</a>
+														</div>
+														<div id="ce-hoc-nav-about-transparency-accountability" class="panel-collapse collapse ce-hoc-collapsible-content">
+															<ul class="ce-hoc-list-group-item" role="menu">
+																<li role="menuitem"><a href="//www.ourcommons.ca/boie/en" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Board of Internal Economy" >Board of Internal Economy</a></li>
+																<li role="menuitem"><a href="//www.ourcommons.ca/boie/en/by-laws-and-policies" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="By-Laws and Policies" >By-Laws and Policies</a></li>
+																<li role="menuitem"><a href="//www.ourcommons.ca/boie/en/by-laws-and-policies#mas" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Members&#x27; Allowances and Services" >Members' Allowances and Services</a></li>
+																<li role="menuitem"><a href="//www.ourcommons.ca/About/Administration/Index-e.html" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="House Administration" >House Administration</a></li>
+																<li role="menuitem"><a href="//www.ourcommons.ca/boie/en/reports-and-disclosure" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Reports and Disclosure" >Reports and Disclosure</a></li>
+																<li role="menuitem"><a href="//www.ourcommons.ca/About/StandingOrders/appa1-e.htm" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Conflict of Interest Code for Members" >Conflict of Interest Code for Members</a></li>
+															</ul>
+														</div>
+													</div>
+													<div class="col-md-4">
+														<div class="ce-hoc-panel-title">
+															<a class="accordion-toggle" data-toggle="collapse" href="#ce-hoc-nav-about-history-art-architecture" tabindex="-1" data-parent="#ce-hoc-nav-about-panel-group">
+																Arts and Heritage
+															</a>
+														</div>
+														<div id="ce-hoc-nav-about-history-art-architecture" class="panel-collapse collapse ce-hoc-collapsible-content">
+															<ul class="ce-hoc-list-group-item" role="menu">
+																<li role="menuitem"><a href="//www.ourcommons.ca/About/HistoryArtsArchitecture/index-e.htm" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="History, Arts and Architecture" >History, Arts and Architecture</a></li>
+																<li role="menuitem"><a href="//www.ourcommons.ca/About/BuildingTheFuture/Index-e.html" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Future of the Parliamentary Precinct" >Future of the Parliamentary Precinct</a></li>
+																<li role="menuitem"><a href="//www.ourcommons.ca/About/HistoryArtsArchitecture/heritage_spaces/memorial/memorial-e.htm" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Memorial Chamber" >Memorial Chamber</a></li>
+																<li role="menuitem"><a href="//www.ourcommons.ca/About/HistoryArtsArchitecture/carillon-e.htm" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Carillon" >Carillon</a></li>
+															</ul>
+														</div>
+													</div>
+													<div class="col-md-4">
+														<div class="ce-hoc-panel-title">
+															<a class="accordion-toggle" data-toggle="collapse" href="#ce-hoc-nav-about-pictures" tabindex="-1" data-parent="#ce-hoc-nav-about-panel-group">
+																In pictures
+															</a>
+														</div>
+														<div id="ce-hoc-nav-about-pictures" class="panel-collapse collapse ce-hoc-collapsible-content">
+															<ul class="ce-hoc-list-group-item" role="menu">
+																<li role="menuitem"><a href="/About/BuildingTheFuture/WestBlock/VirtualTours/chamber/en/" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Virtual Tour of the House" rel="external">Virtual Tour of the House</a></li>
+																<li role="menuitem"><a href="//www.tpsgc-pwgsc.gc.ca/citeparlementaire-parliamentaryprecinct/camera-eng.html" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Live Hill Cam" rel="external">Live Hill Cam</a></li>
+																<li role="menuitem"><a href="https://www.instagram.com/ourcommonsca/" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Photo Gallery" rel="external">Photo Gallery</a></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="javascript: void(0);" data-toggle="dropdown" class="dropdown-toggle" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Employment">
+									Employment
+								</a>
+								<ul id="ce-hoc-nav-employment" class="dropdown-menu">
+									<li>
+										<div class="ce-hoc-dropdown-menu-content">
+											<div class="row">
+												<div class="col-sm-12">
+													<a href="//www.ourcommons.ca/en/employment" class="btn ce-hoc-btn-landing" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Employment" >
+														Employment - Home
+													</a>
+												</div>
+											</div>
+											<div class="row">
+												<div class="panel-group" id="ce-hoc-nav-employment-panel-group">
+													<div class="col-md-4">
+														<div class="ce-hoc-panel-title">
+															<a class="accordion-toggle" data-toggle="collapse" href="#ce-hoc-nav-employment-opportunities" tabindex="-1" data-parent="#ce-hoc-nav-employment-panel-group">
+																Career opportunities
+															</a>
+														</div>
+														<div id="ce-hoc-nav-employment-opportunities" class="panel-collapse collapse ce-hoc-collapsible-content">
+															<ul class="ce-hoc-list-group-item" role="menu">
+																<li role="menuitem"><a href="http://jobs-emplois-hoc.parl.gc.ca/en/Pages/Opportunities.aspx" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Current Opportunities" rel="external">Current Opportunities</a></li>
+																<li role="menuitem"><a href="//www.ourcommons.ca/About/Employment/eligibility-e.html" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Eligibility and Selection" >Eligibility and Selection</a></li>
+																<li role="menuitem"><a href="https://survey-sondage-hoc.parl.gc.ca/Login.aspx?c&#x3D;en-CA" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Access your Profile" rel="external">Access your Profile</a></li>
+																<li role="menuitem"><a href="https://survey-sondage-hoc.parl.gc.ca/n/ResumeBank.aspx?c&#x3D;en-CA" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Resumé Bank" rel="external">Resumé Bank</a></li>
+															</ul>
+														</div>
+													</div>
+													<div class="col-md-4">
+														<div class="ce-hoc-panel-title">
+															<a class="accordion-toggle" data-toggle="collapse" href="#ce-hoc-nav-employment-youth" tabindex="-1" data-parent="#ce-hoc-nav-employment-panel-group">
+																Youth Opportunities
+															</a>
+														</div>
+														<div id="ce-hoc-nav-employment-youth" class="panel-collapse collapse ce-hoc-collapsible-content">
+															<ul class="ce-hoc-list-group-item" role="menu">
+																<li role="menuitem"><a href="//content.eluta.ca/top-employer-house-of-commons" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Canada&#x27;s Top Employers for Young People" rel="external">Canada's Top Employers for Young People</a></li>
+																<li role="menuitem"><a href="//www.ourcommons.ca/About/Employment/youth-e.html" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Student Employment" >Student Employment</a></li>
+																<li role="menuitem"><a href="//www.ourcommons.ca/About/PageProgram/Index-e.html" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Page Program" >Page Program</a></li>
+																<li role="menuitem"><a href="//pip-psp.org" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Parliamentary Internship Programme" rel="external">Parliamentary Internship Programme</a></li>
+															</ul>
+														</div>
+													</div>
+													<div class="col-md-4">
+														<div class="ce-hoc-panel-title">
+															<a class="accordion-toggle" data-toggle="collapse" href="#ce-hoc-nav-employment-working" tabindex="-1" data-parent="#ce-hoc-nav-employment-panel-group">
+																Working at the House
+															</a>
+														</div>
+														<div id="ce-hoc-nav-employment-working" class="panel-collapse collapse ce-hoc-collapsible-content">
+															<ul class="ce-hoc-list-group-item" role="menu">
+																<li role="menuitem"><a href="//www.ourcommons.ca/About/Employment/working-e.html" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Who we are and what we Offer" >Who we are and what we Offer</a></li>
+																<li role="menuitem"><a href="//www.canada.ca/en/services/culture/events-celebrations-commemorations/experience-canada-capital.html" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Canada&#x27;s Capital Region" rel="external">Canada's Capital Region</a></li>
+																<li role="menuitem"><a href="//ottawa.ca/en" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="City of Ottawa" rel="external">City of Ottawa</a></li>
+																<li role="menuitem"><a href="//www.gatineau.ca/portail/locale.aspx?locale&#x3D;en-CA&amp;return_url&#x3D;%2fportail%2fdefault.aspx%3fp%3daccueil%26mc%3dtl" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="City of Gatineau" rel="external">City of Gatineau</a></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</li>
+							<li class="dropdown ce-hoc-search-dropdown">
+								<a href="#" data-toggle="dropdown" class="dropdown-toggle">
+									<i class="hoc-icon icon-search" aria-hidden="true"></i>
+									<span class="ce-hoc-lbl-search">Search</span>
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<div class="ce-hoc-dropdown-menu-content">
+											<div class="row">
+												<div class="col-sm-12 text-center">
+													<form role="search" action="//www.ourcommons.ca/Search/en" method="get">
+														<div class="form-inline">
+															<div class="input-group ce-hoc-search-group">
+		                                                        <label for="ce-hoc-search-query" class="sr-only">Search</label>
+																<input id="ce-hoc-search-query" class="form-control ce-hoc-inp-search" placeholder="Search" name="text" title="Search" aria-label="Search" type="search" value="" size="27" maxlength="150">
+																<div class="input-group-btn">
+																	<button class="btn btn-default form-control ce-hoc-btn-search" id="ce-hoc-search-submit" type="submit"><i class="hoc-icon icon-search"></i><span class="sr-only">Search</span></button>
+																</div>
+		                                                        <label for="ce-hoc-sitesearch-location" class="hide">Search Source</label>	
+																<select label="search source" id="ce-hoc-sitesearch-location" class="form-control selectpicker ce-hoc-sel-search" name="searchToolCode">
+																	<option label="Full website" value="website" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click">Full website</option>
+																	<option label="Member" value="members-of-parliament" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click">Member</option>
+																	<option label="Bill" value="bills" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click">Bill</option>
+																	<option label="Topic" value="publications" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click">Topic</option>
+																	<option label="Petition" value="petitions" data-analytics-eventcategory="HoC Common Elements Main Menu" data-analytics-eventaction="click">Petition</option>
+																</select>
+															</div>
+														</div>
+													</form>
+												</div>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+			
+					<div class="dropdown ce-hoc-btn-share hidden-sm hidden-xs">
+						<button type="button" class="btn btn-xs btn-default dropdown-toggle" data-toggle="dropdown"><i class="hoc-icon icon-share"></i> Share this page</button>
+						<ul class="dropdown-menu">
+							<li><a id="share-media-email" href="#" title="share link with e-mail"><span class="ce-hoc-share-media-email"><i class="hoc-icon icon-envelope"></i></span> Email</a></li>
+							<li><a id="share-media-facebook" href="#" title="share link with facebook"><span class="ce-hoc-share-media-facebook"><i class="hoc-icon icon-social-facebook"></i></span> Facebook</a></li>
+							<li><a id="share-media-googleplus" href="#" title="share link with google plus"><span class="ce-hoc-share-media-googleplus"><i class="hoc-icon icon-social-googleplus"></i></span> Google+</a></li>
+							<li><a id="share-media-linkedin" href="#" title="share link with linked in"><span class="ce-hoc-share-media-linkedin"><i class="hoc-icon icon-social-linkedin"></i></span> LinkedIn</a></li>
+							<li><a id="share-media-twitter" href="#" title="share link with twitter"><span class="ce-hoc-share-media-twitter"><i class="hoc-icon icon-social-twitter"></i></span> Twitter</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		<a id="StartofContent" class="sr-only" tabindex="-1">Start of content</a>
+    
+
+
+<div class="container">
+    <section class="banner-container">
+        
+    <div class="row hero-wrapper">
+        <div class="col-sm-10 hero-carousel-wrapper">
+            <div id="featured-carousel" data-ride="carousel" class="carousel slide banner-carousel">
+                <div class="center-controls"></div>
+                <ol class="carousel-indicators">
+                        <li data-target="#featured-carousel" data-slide-to="0" aria-controls="featured-carousel-slide-0" id="featured-carousel-indicator-0" class="control active"></li>
+                        <li data-target="#featured-carousel" data-slide-to="1" aria-controls="featured-carousel-slide-1" id="featured-carousel-indicator-1" class="control "></li>
+                        <li data-target="#featured-carousel" data-slide-to="2" aria-controls="featured-carousel-slide-2" id="featured-carousel-indicator-2" class="control "></li>
+                        <li data-target="#featured-carousel" data-slide-to="3" aria-controls="featured-carousel-slide-3" id="featured-carousel-indicator-3" class="control "></li>
+                        <li data-target="#featured-carousel" data-slide-to="4" aria-controls="featured-carousel-slide-4" id="featured-carousel-indicator-4" class="control "></li>
+                                            <li class="play-pause">
+                            <a class="control play">
+                                <span class="hoc-icon icon-flat-play"></span>
+                                <span class="sr-only">Play</span>
+                            </a>
+                            <a class="control pause">
+                                <span class="hoc-icon icon-flat-pause"></span>
+                                <span class="sr-only">Pause</span>
+                            </a>
+                        </li>
+                </ol>
+                <div role="listbox" class="carousel-inner">
+                        <article aria-labelledby="featured-carousel-indicator-0" id="featured-carousel-slide-0" class="item active">
+                                <img src="/en/CalendarImage/CustomFormat?imageDate=2019-11-04&amp;outputMedium=fullImage" alt="Image for the carousel" />
+                        </article>
+                        <article aria-labelledby="featured-carousel-indicator-1" id="featured-carousel-slide-1" class="item ">
+                                <img src="//www.ourcommons.ca/Content/CustomMessages/10598066/home-banner-Remebrance-Day-en%20(002).jpg" alt="Remembrance Day - Lest we forget" />
+                        </article>
+                        <article aria-labelledby="featured-carousel-indicator-2" id="featured-carousel-slide-2" class="item ">
+                                <a href="https://www.ourcommons.ca/Content/Newsroom/Articles/FactSheet-2019-10-22-e.pdf"
+                                    data-analytics-eventcategory="HocPortal - Home - Hero" 
+                                    data-analytics-eventaction="click"
+                                    data-analytics-eventlabel="">
+                                    <img src="//www.ourcommons.ca/Content/CustomMessages/10597950/WelcomingMembers-V1-4.jpg" alt="Image for the carousel" />
+                                </a>
+                        </article>
+                        <article aria-labelledby="featured-carousel-indicator-3" id="featured-carousel-slide-3" class="item ">
+                                <a href="https://www.ourcommons.ca/About/Compendium/ParliamentaryCycle/c_g_parliamentarycycle-e.htm#10"
+                                    data-analytics-eventcategory="HocPortal - Home - Hero" 
+                                    data-analytics-eventaction="click"
+                                    data-analytics-eventlabel="Opening of a Parliament">
+                                    <img src="//www.ourcommons.ca/Content/CustomMessages/10597945/home-banner-Parliament-en%20(002).jpg" alt="Opening of a Parliament" />
+                                </a>
+                        </article>
+                        <article aria-labelledby="featured-carousel-indicator-4" id="featured-carousel-slide-4" class="item ">
+                                <a href="https://www.ourcommons.ca/About/PageProgram/Index-e.html "
+                                    data-analytics-eventcategory="HocPortal - Home - Hero" 
+                                    data-analytics-eventaction="click"
+                                    data-analytics-eventlabel="House of Commons Page Program">
+                                    <img src="//www.ourcommons.ca/Content/CustomMessages/10597180/home-banner-PageProgram-EN.jpg" alt="House of Commons Page Program" />
+                                </a>
+                        </article>
+                </div>
+                <a href="#featured-carousel" role="button" data-slide="prev" class="left carousel-control ">
+                    <i aria-hidden="true" class="hoc-icon icon-left"></i><span class="sr-only">Previous Slide</span>
+                </a>
+                <a href="#featured-carousel" role="button" data-slide="next" class="right carousel-control">
+                    <i aria-hidden="true" class="hoc-icon icon-right"></i><span class="sr-only">Next Slide</span>
+                </a>
+            </div>
+        </div>
+        <div class="col-sm-2 hero-main-feature-wrapper">
+            <div class="row">
+                <div class="col-xs-4 col-sm-12">
+                    <a href="https://visit.parl.ca/index-e.html" class="main-feature-button first clearfix"
+                        data-analytics-eventcategory="HocPortal - Home - Feature" 
+                        data-analytics-eventaction="click"
+                        data-analytics-eventlabel="Visit">
+                        <div class="main-feature-button-content">
+                            <i class="hoc-icon icon-parliament-large"></i>
+                            <p class="message"><span class="keyword">Visit</span></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-4 col-sm-12">
+                    <a href="https://learn.parl.ca/index-e.html" class="main-feature-button clearfix"
+                        data-analytics-eventcategory="HocPortal - Home - Feature" 
+                        data-analytics-eventaction="click"
+                        data-analytics-eventlabel="Learn">
+                        <div class="main-feature-button-content">
+                            <i class="hoc-icon icon-info-circle-large"></i>
+                            <p class="message"><span class="keyword">Learn</span></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-4 col-sm-12">
+                    <a href="/en/participate" class="main-feature-button clearfix"
+                        data-analytics-eventcategory="HocPortal - Home - Feature" 
+                        data-analytics-eventaction="click"
+                        data-analytics-eventlabel="Participate">
+                        <div class="main-feature-button-content">
+                            <i class="hoc-icon icon-speech-bubble-large"></i>
+                            <p class="message"><span class="keyword">Participate</span></p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $('.play-pause > .play').click(function () {
+            $('#featured-carousel').carousel('cycle');
+            $('.play-pause').removeClass('paused');
+        });
+        $('.play-pause > .pause').click(function () {
+            $('#featured-carousel').carousel('pause');
+            $('.play-pause').addClass('paused');
+        });
+    </script>
+
+    </section>
+    
+
+<div class="tabbed-widget row is-sm-table-row">
+    <div class="col-sm-1 is-sm-table-column hidden-xs tabbed-widget-tabs-container">
+        <!-- Nav tabs -->
+        <ul id="tabbed-widget-tab-list" class="tabbed-widget-tabs" role="tablist">
+            <li role="presentation" class="">
+                <a href="#tabbed-widget-in-the-house" id="tabbed-widget-in-the-house-tab" aria-controls="tabbed-widget-in-the-house" role="tab" data-toggle="tab" class="disabled"
+                    data-analytics-eventcategory="HocPortal - Home - ParliamentWork" 
+                    data-analytics-eventaction="click"
+                    data-analytics-eventlabel="In the House">
+                    <i class="hoc-icon icon-members-desk-large" style="font-size:3em;"></i>
+                    <span class="title">In the House</span>
+                </a>
+            </li>
+            <li role="presentation" class="">
+                <a href="#tabbed-widget-agenda-decisions" id="tabbed-widget-agenda-decisions-tab" aria-controls="tabbed-widget-agenda-decisions" role="tab" data-toggle="tab" class="disabled"
+                    data-analytics-eventcategory="HocPortal - Home - ParliamentWork" 
+                    data-analytics-eventaction="click"
+                    data-analytics-eventlabel="Agenda and Decisions">
+                    <i class="hoc-icon icon-checklist-large" style="font-size:3em;"></i>
+                    <span class="title">Agenda and Decisions</span>
+                </a>
+            </li>
+            <li role="presentation" class="">
+                <a href="#tabbed-widget-committee-meetings" id="tabbed-widget-committee-meetings-tab" aria-controls="tabbed-widget-committee-meetings" role="tab" data-toggle="tab" class="disabled"
+                    data-analytics-eventcategory="HocPortal - Home - ParliamentWork" 
+                    data-analytics-eventaction="click"
+                    data-analytics-eventlabel="Committee Meetings">
+                    <i class="hoc-icon icon-group-table-large" style="font-size:3em;"></i>
+                    <span class="title">Committee Meetings</span>
+                </a>
+            </li>
+            <li role="presentation" class="active">
+                <a href="#tabbed-widget-members-work" id="tabbed-widget-members-work-tab" aria-controls="tabbed-widget-members-work" role="tab" data-toggle="tab" class=""
+                    data-analytics-eventcategory="HocPortal - Home - ParliamentWork" 
+                    data-analytics-eventaction="click"
+                    data-analytics-eventlabel="Members&#39; Work">
+                    <i class="hoc-icon icon-briefcase-large" style="font-size:3em;"></i>
+                    <span class="title">Members&#39; Work</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-sm-11 is-sm-table-column tabbed-widget-content-container">
+        <!-- Tab panes -->
+        <div class="tab-content tabbed-widget-tab-content">
+            <div role="tabpanel" class="tab-pane tabbed-widget-pane " id="tabbed-widget-in-the-house" aria-labelledby="tabbed-widget-in-the-house-tab">
+                <a role="button" class="visible-xs tabbed-widget-collapse-header collapsed disabled" data-toggle="collapse" data-parent="#accordion2" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                    <i class="hoc-icon icon-members-desk-large" style="font-size:2em;"></i> In the House
+                </a>
+                
+                <div id="collapse1" class="panel-collapse collapse work-section" role="tabpanel" aria-labelledby="tabbed-widget-in-the-house-tab">
+                    
+<input type="hidden" id="culture" value="en" />
+<input type="hidden" id="parldataWidgets-url" value="//apps.ourcommons.ca/ParlDataWidgets/" />
+<input type="hidden" id="membersHome-url" value="/Members/{0}" />
+<input type="hidden" id="isMeetingInProgress" value="False" />
+<div id="hoc-real-time-service" data-url="https://realtimeevents.ourcommons.ca/HocRealtimeEventHub"></div>
+<article>
+    <div class="tabbed-widget-content-wrapper">
+        <div id="in-the-house-header" class="tabbed-widget-content-header">
+            <div class="row ">
+                <div class="col-xs-12">
+                    <div class="pull-left">
+                        <h1 class="title">In the House</h1>
+                        <span class="subtitle">
+                                <span class="sync-view">Adjourned</span>
+                            <span class="async-view" style="display: none;" data-bind="visible: $data.houseStatusMessage, text: $data.houseStatusMessage"></span>
+                        </span>
+
+                    </div>
+                    <div class="pull-right in-the-house-watchlive-client-side" style="display: none;">
+                        <a href="" class="btn btn-primary" data-bind="attr: { href:  parlVuDesktopUrlEn }"><i class="hoc-icon icon-play"></i>&nbsp;Watch Live</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sync-view">
+            
+<div>
+    <div id="in-the-house-content-sync" class="row collapse">
+        <div class="in-the-house-content-list">
+
+            
+            <div class="col-xs-12 in-the-house-group ">
+                <div>
+                    
+                        <span class="now-in-the-house-subtitle"></span >
+
+                </div>
+                        <div class="now-in-the-house-item">
+                            <span class="now-in-the-house-subtitle"> </span>
+                                                    </div>
+                        <div class="explanatoryList">
+                            <span class="now-in-the-house-title"></span>
+                            <div class="now-in-the-house-item"></div>
+                        </div>
+            </div>
+
+            
+            <div class="col-xs-12 in-the-house-group ">
+                    <div class="row">
+                    </div>
+
+            </div>
+            <!-- subsequentDivisions -->
+            <div class="col-xs-12 in-the-house-group ">
+            </div>
+        </div>
+    </div>
+</div>
+
+        </div>
+
+        <div class="async-view" style="display: none;">
+            <div id="in-the-house-content" class="row collapse">
+                <div id="in-the-house-content-list">
+                    <div class="col-xs-12 in-the-house-group ">
+
+                        <div class="connectionStatus"></div>
+                        
+                        <div class="decisionList" data-bind="foreach: decisions">
+                            <div style="margin-bottom: 10px;" data-bind="visible: sectionTitleEn">
+                                <div class="now-in-the-house-title" data-bind="text: sectionTitleEn"></div>
+
+                                <div class="now-in-the-house-bold"><span data-bind="text: decisionIdentifierEn"></span><span data-bind="html: decisionQualifierEn"></span></div>
+                                <div data-bind="html:  decisionDescriptionEn"></div>
+                                <div class="now-in-the-house-bold">
+                                    <span data-bind="html: voteResultEn"></span>
+                                    <span data-bind="html: voteYeasEn"></span>
+                                    <span data-bind="html: voteNaysEn"></span>
+                                    <div data-bind="html: speakerCastingVoteEn"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="now-in-the-house-title" id="now-in-the-housedescription" data-bind="html: descriptionEn "></span>
+                        </div>
+
+                        <div class="now-in-the-house-subtitle" data-bind="if: silenceReasonEn">
+                            <span class="" data-bind="text:silenceReasonEn"></span>
+                        </div>
+                        
+                        <div class="clock" style="display:block;">
+                            <div class="reason"></div>
+                            <div class="bell-container">
+                                <i class="hoc-icon icon-bell now-in-the-house-bell"></i>
+                                <span id="clock" class="countdown"></span>
+                                <div class="now-in-the-house-subtitle" data-bind="text: bellReasonEn"></div>
+                            </div>
+                        </div>
+
+                        <div class="now-in-the-house-item " data-bind="foreach: itemOfBusiness">
+                            <div data-bind="visible: itemIdentifierEn">
+                                <span class="now-in-the-house-subtitle" data-bind="html:itemIdentifierEn + itemQualifierEn"></span>
+                                <span data-bind="if: itemDescriptionEn">
+                                    <span class="" data-bind="html: ' — ' +   itemDescriptionEn"></span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="explanatoryList" data-bind="foreach: explanatoryContext">
+                            <span class="now-in-the-house-title" data-bind="text: contextTitleEn"></span>
+                            <div class="now-in-the-house-item" data-bind="text: contextDescriptionEn"></div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="col-xs-12 in-the-house-group">
+                        <!-- ko if: interventions -->
+                        <div class="row" data-bind="foreach: interventions">
+                            <div class="col-sm-4 col-xs-12">
+                                <div class="now-in-the-house-subtitle" data-bind="if: ($index() === 0)">
+                                    <div data-bind="if:  $data.personGender() === 'M'">
+                                        <span data-bind="restext: 'current_member_speaking'"></span>
+                                    </div>
+                                    <div data-bind="if:  $data.personGender() === 'F'">
+                                        <span data-bind="restext: 'current_member_speakingFe'"></span>
+                                    </div>
+                                </div>
+                                <div class="now-in-the-house-subtitle" data-bind="if: ($index() === 1)"><span data-bind="restext: 'previous_member_speaking'"></span></div>
+                                <div class="now-in-the-house-subtitle" data-bind="if: ($index() === 2)"><span data-bind="restext: 'previous_member_speaking'" class="invisible hidden-xs"></span></div>
+
+                                <div class="now-in-the-house-member-speaking">
+                                    <div class="pull-left profile-image-container"><img class="profile-image" alt="Member&#39;s Photo" data-bind="attr:{src: photo}"></div>
+                                    <div class="pull-left profile-blockes">
+                                        <span class="profile-photo"></span>
+                                        <span class="profile-info"></span>
+                                        <small data-bind="text: personLongHonorificEn" class="honourable"></small><br />
+                                        <span class="profile-name">
+                                            <a data-bind="attr: { href: urlEn}, text: name"></a><br />
+                                        </span>
+                                        <span class="party-color" data-bind="style: { 'border-bottom-color' : caucusWebsiteColor}"></span>
+                                        <div><small data-bind="text:  caucusEn" class="caucus"></small></div>
+                                        <div><small data-bind="text: regionEn" class="region"></small></div>
+                                        <div><small data-bind="text:  provinceEn" class="province"></small></div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- /ko -->
+                    </div>
+
+                    <div class="col-xs-12 in-the-house-group">
+                        <!-- ko if: subsequentDivisions -->
+                        <div class="subsequentDivisionList" data-bind="foreach: subsequentDivisions">
+                            <div class="now-in-the-house-title" data-bind="if: ($index() === 0)"><span data-bind="restext: 'subsequent_divisions_title'"></span> </div>
+                            <div class="now-in-the-house-item">
+                                <span class="" data-bind="attr: { html: itemIdentifierEn + itemQualifierEn"></span>
+                                <span data-bind="if: itemDescriptionEn">
+                                    <span data-bind="text: ' — ' + itemDescriptionEn"></span>
+                                </span>
+                            </div>
+                        </div>
+                        <!-- /ko -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="in-the-house-footer" class="widget-latest-publications-container">
+            <div class="row">
+                <div id="in-the-house-show-more" class="invisible col-xs-12 text-center">
+                    <a id="in-the-house-show-more-less-link" class="showmore-showless collapsed" data-toggle="collapse" data-parent="in-the-house-content" href="#in-the-house-content"
+                       aria-hidden="true" aria-expanded="true" aria-controls="in-the-house-content">Show more&nbsp;<i class="hoc-icon icon-down"></i></a>
+                </div>
+            </div>
+            <ul class="latest-house-publication-links">
+    <li class="latest-house-publication-link">
+            <a href="/DocumentViewer/en/house/latest/projected-business" class="link-content">Projected Order of Business</a>
+        <i class="hoc-icon icon-info-circle" data-container="body" data-html="true" data-toggle="tooltip" title="Tentative working agenda listing items of business expected to be taken up on a particular sitting." role="tooltip"><span class="sr-only">Tentative working agenda listing items of business expected to be taken up on a particular sitting.</span></i>
+    </li>
+    <li class="latest-house-publication-link">
+            <a href="/DocumentViewer/en/house/latest/order-notice" class="link-content">Latest Order Paper and Notice Paper</a>
+
+        <i class="hoc-icon icon-info-circle" data-container="body" data-html="true" data-toggle="tooltip" title="Official agenda, listing all items that may be taken up on a particular sitting." role="tooltip"><span class="sr-only">Official agenda, listing all items that may be taken up on a particular sitting.</span></i>
+    </li>
+        <li class="latest-house-publication-link">
+                <a href="/DocumentViewer/en/house/latest/hansard" class="link-content">Latest Debates (Hansard)</a>
+            <i class="hoc-icon icon-info-circle" data-container="body" data-html="true" data-toggle="tooltip" title="Full-length record of what is said in the House." role="tooltip"><span class="sr-only">Full-length record of what is said in the House.</span></i>
+        </li>
+    
+        <li class="latest-house-publication-link">
+                <a href="/DocumentViewer/en/house/latest/journals" class="link-content">Latest Journals</a>
+            <i class="hoc-icon icon-info-circle" data-container="body" data-html="true" data-toggle="tooltip" title="Official record of the decisions and other transactions of the House." role="tooltip"><span class="sr-only">Official record of the decisions and other transactions of the House.</span></i>
+        </li>
+</ul>
+        </div>
+    </div>
+</article>
+
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane tabbed-widget-pane " id="tabbed-widget-agenda-decisions" aria-labelledby="tabbed-widget-agenda-decisions-tab">
+                <a role="button" class="visible-xs tabbed-widget-collapse-header collapsed disabled" data-toggle="collapse" data-parent="#accordion2" href="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                    <i class="hoc-icon icon-checklist-large" style="font-size:2em;"></i> Agenda and Decisions
+                </a>
+                <div id="collapse2" class="panel-collapse collapse work-section" role="tabpanel" aria-labelledby="tabbed-widget-agenda-decisions-tab">
+
+
+<article>
+    <div class="tabbed-widget-content-wrapper">
+        
+        <ul id="agenda-decision-sm-nav-tabs" class="nav nav-tabs visible-sm visible-xs agenda-decision-sm-nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#agenda-list-item" id="agenda-list-tab" aria-controls="agenda-list-item" role="tab" data-toggle="tab">Agenda</a></li>
+            <li role="presentation"><a href="#decision-list-item" id="decision-list-tab" aria-controls="decision-list-item" role="tab" data-toggle="tab">Decisions</a></li>
+        </ul>
+        <div id="agenda-decision-list-item" class="row collapse tab-content">
+            <div id="agenda-list-item" class="col-sm-12 col-md-6 tab-pane fade in active force-block-display-md" role="tabpanel" aria-labelledby="agenda-list-tab">
+
+                <div id="agenda-list-item-header" class="agenda-list-item-header">
+                    <div class="title">House Agenda</div>
+                  
+                </div>
+                <div class="agenda-list-item-content">
+The agenda is not available yet.                </div>
+            </div>
+            <div id="decision-list-item" class="col-sm-12 col-md-6 tab-pane fade force-block-display-md" role="tabpanel" aria-labelledby="decision-list-tab">
+
+                <div class="decision-list-item-header  col-md-12">
+                    <div class="title">Decisions</div>
+                </div>
+                <div class="decision-list-item-content">
+Please consult the <a href="/DocumentViewer/en/42-1/house/sitting-438C/journals">Journals</a>, in which the House’s decisions and transactions are officially recorded.                </div>
+            </div>
+        </div>
+
+        <div id="agenda-decision-footer" class="widget-latest-publications-container">
+            <div class="row">
+                <div id="agenda-decision-list-item-show-more" class="invisible col-xs-12 text-center">
+                    <a id="agenda-decision-show-more-less-link" class="showmore-showless collapsed" data-toggle="collapse" data-parent="#agenda-decision-list-item" href="#agenda-decision-list-item" 
+                       aria-hidden="true" aria-expanded="false" aria-controls="agenda-decision-list-item">Show more&nbsp;<i class="hoc-icon icon-down"></i></a>
+                </div>
+            </div>
+            <ul class="latest-house-publication-links">
+    <li class="latest-house-publication-link">
+            <a href="/DocumentViewer/en/house/latest/projected-business" class="link-content">Projected Order of Business</a>
+        <i class="hoc-icon icon-info-circle" data-container="body" data-html="true" data-toggle="tooltip" title="Tentative working agenda listing items of business expected to be taken up on a particular sitting." role="tooltip"><span class="sr-only">Tentative working agenda listing items of business expected to be taken up on a particular sitting.</span></i>
+    </li>
+    <li class="latest-house-publication-link">
+            <a href="/DocumentViewer/en/house/latest/order-notice" class="link-content">Latest Order Paper and Notice Paper</a>
+
+        <i class="hoc-icon icon-info-circle" data-container="body" data-html="true" data-toggle="tooltip" title="Official agenda, listing all items that may be taken up on a particular sitting." role="tooltip"><span class="sr-only">Official agenda, listing all items that may be taken up on a particular sitting.</span></i>
+    </li>
+        <li class="latest-house-publication-link">
+                <a href="/DocumentViewer/en/house/latest/hansard" class="link-content">Latest Debates (Hansard)</a>
+            <i class="hoc-icon icon-info-circle" data-container="body" data-html="true" data-toggle="tooltip" title="Full-length record of what is said in the House." role="tooltip"><span class="sr-only">Full-length record of what is said in the House.</span></i>
+        </li>
+    
+        <li class="latest-house-publication-link">
+                <a href="/DocumentViewer/en/house/latest/journals" class="link-content">Latest Journals</a>
+            <i class="hoc-icon icon-info-circle" data-container="body" data-html="true" data-toggle="tooltip" title="Official record of the decisions and other transactions of the House." role="tooltip"><span class="sr-only">Official record of the decisions and other transactions of the House.</span></i>
+        </li>
+</ul>
+        </div>
+
+    </div>
+</article>
+
+
+
+<script>
+    $(window).resize(function () {
+        agendaDecisionContent();
+    });
+    $(document).ready(function () {
+        agendaDecisionContent();
+
+        $('#tabbed-widget-agenda-decisions-tab[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+            agendaDecisionContent();
+        });
+
+        $('#in-the-house-show-more-less-link').click(function () {
+            if ($("#in-the-house-content").hasClass("in")) {
+                $("#in-the-house-show-more-less-link").html("Show more&nbsp;<i class='hoc-icon icon-down'></i>");
+            }
+            else {
+                $("#in-the-house-show-more-less-link").html("Show less&nbsp;<i class='hoc-icon icon-up'></i>");
+            }
+        })
+
+        $('#agenda-decision-show-more-less-link').click(function () {
+            if ($("#agenda-decision-list-item").hasClass("in")) {
+                $("#agenda-decision-show-more-less-link").html("Show more&nbsp;<i class='hoc-icon icon-down'></i>");
+            }
+            else {
+                $("#agenda-decision-show-more-less-link").html("Show less&nbsp;<i class='hoc-icon icon-up'></i>");
+            }
+        })
+    });
+
+    function agendaDecisionContent() {
+        var agendaContentHeight = 327;
+
+        if($("#agenda-decision-list-item").hasClass("in")){
+
+        } else if ($(window).width() > 767) {
+
+            var agendaHeaderHeight = $('#agenda-decision-sm-nav-tabs').outerHeight(true);
+            if ($(window).width() > 975) {
+                agendaHeaderHeight = 0; //$('#agenda-decision-list-item-header').outerHeight(true);
+            }
+            var widgetHeight = parseInt($('.tabbed-widget-content-wrapper').css('min-height'), 10);
+            var agendaFooterHeight = $('#agenda-decision-footer').outerHeight();
+
+            agendaContentHeight = widgetHeight - agendaHeaderHeight - agendaFooterHeight;
+
+            $('#agenda-decision-list-item').css('min-height', agendaContentHeight);
+            $('#agenda-decision-list-item').height(agendaContentHeight);
+        }
+
+        if ($("#agenda-list-item").height() > agendaContentHeight || $("#decision-list-item").height() > agendaContentHeight) {
+            $("#agenda-decision-list-item-show-more").removeClass("invisible");
+        };
+    }
+</script>
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane tabbed-widget-pane " id="tabbed-widget-committee-meetings" aria-labelledby="tabbed-widget-committee-meetings-tab">
+                <a role="button" class="visible-xs tabbed-widget-collapse-header collapsed disabled" data-toggle="collapse" data-parent="#accordion3" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                    <i class="hoc-icon icon-group-table-large" style="font-size:2em;"></i> Committee Meetings
+                </a>
+                <div id="collapse3" class="panel-collapse collapse work-section" role="tabpanel" aria-labelledby="tabbed-widget-committee-meetings-tab">
+                    
+
+
+<article>
+
+    <div class="tabbed-widget-content-wrapper">
+        <div class="tabbed-widget-content-header">
+            <div class="row">
+
+                <div class="col-sm-6">
+
+                    <h1 class="title hidden-xs">Committee Meetings</h1>
+                    <span class="subtitle">Monday, November 4, 2019</span>
+
+                </div>
+
+                <div class="col-sm-6 hidden-xs">
+
+                    <ul class="pull-right list-inline big-list committee-meetings-tabs-top" role="tablist">
+
+                        <li role="presentation" class="">
+                            <a href="#earlier-meetings-carousel" id="earlier-meetings-tab" aria-controls="earlier-meetings-carousel" aria-expanded="false" role="tab" data-toggle="tab">Earlier&nbsp;(0)</a>
+                        </li>
+
+                        <li role="presentation" class="active">
+                            <a href="#ongoing-meetings-carousel" id="ongoing-meetings-tab" aria-controls="ongoing-meetings-carousel" aria-expanded="true" role="tab" data-toggle="tab">Ongoing&nbsp;(0)</a>
+                        </li>
+
+                        <li role="presentation" class="">
+                            <a href="#later-meetings-carousel" id="later-meetings-tab" aria-controls="later-meetings-carousel" aria-expanded="false" role="tab" data-toggle="tab">Later&nbsp;(0)</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+            <div class="tabbed-widget-committee-content no-meetings-message">There are no meetings scheduled for today.</div>
+        <ul class="latest-house-publication-links">
+
+            <li class="latest-house-publication-link">
+                <a href="//www.ourcommons.ca/Committees/en/Meetings">All Upcoming Meetings</a>
+            </li>
+
+            <li class="latest-house-publication-link">
+                <a href="//www.ourcommons.ca/Committees/en/Home">List of Committees and Overview</a>
+            </li>
+
+        </ul>
+
+    </div>
+
+</article>
+
+<script language="javascript" type="text/javascript">
+
+    $(document).ready(function () {
+        $("#earlier-meetings-carousel").carousel('pause')
+        $("#ongoing-meetings-carousel").carousel('pause')
+        $("#later-meetings-carousel").carousel('pause')
+    });
+
+    $('.carousel').on('slid.bs.carousel', function () {
+
+        var carouselData = $(this).data('bs.carousel');
+        var currentIndex = carouselData.getItemIndex(carouselData.$element.find('.item.active'));
+        var total = carouselData.$items.length;
+        var meetingLabel = 'Meeting';
+        var slideCountText = meetingLabel + ' ' + (currentIndex + 1) + ' of ' + total;
+
+        if (total > 0) {
+            carouselData.$element.find('.meeting-number-of').text(slideCountText);
+        } else {
+            carouselData.$element.find('.meeting-number-of').text('');
+        }
+    });
+
+</script>
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane tabbed-widget-pane active" id="tabbed-widget-members-work" aria-labelledby="tabbed-widget-members-work-tab">
+                <a role="button" class="visible-xs tabbed-widget-collapse-header collapsed" data-toggle="collapse" data-parent="#accordion4" href="#collapse4" aria-expanded="true" aria-controls="collapse4">
+                    <i class="hoc-icon icon-briefcase-large" style="font-size:2em;"></i> Members&#39; Work
+                </a>
+                <div id="collapse4" class="panel-collapse collapse work-section" role="tabpanel" aria-labelledby="tabbed-widget-members-work-tab">
+                    
+
+<article>
+    <div class="tabbed-widget-content-wrapper">
+        <div class="tabbed-widget-content-header">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="title hidden-xs">Members&#39; Work</h1>
+                    <span class="subtitle">42nd Parliament, 1st Session</span>
+                    <span class="session-subtitle">(December 3, 2015 - September 11, 2019)</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="members-work-content-wrapper">
+                    <div class="members-work-summary">
+                        <div class="members-work-summary-table">
+                            <a href="/Members/en" class="table-row">
+                                <div class="table-cell members-work-ammount">
+                                    333
+                                </div>
+                                <div class="table-cell members-work-type text-uppercase">
+                                    <strong class="hoc-green-txt">Members</strong>
+                                    <small>In office</small>
+                                </div>
+                                <div class="table-cell members-work-type-details hidden-sm hidden-xs">
+                                    <span class="caucus-members-count"> 
+                                        <span>Liberal</span> : 177
+                                    </span>
+                                    <span class="caucus-members-count"> 
+                                        <span>Conservative</span> : 95
+                                    </span>
+                                    <span class="caucus-members-count"> 
+                                        <span>NDP</span> : 39
+                                    </span>
+                                    <span class="caucus-members-count"> 
+                                        <span>Bloc Qu&#233;b&#233;cois</span> : 10
+                                    </span>
+                                    <span class="caucus-members-count"> 
+                                        <span>Independent</span> : 8
+                                    </span>
+                                    <span class="caucus-members-count"> 
+                                        <span>Green Party</span> : 2
+                                    </span>
+                                    <span class="caucus-members-count"> 
+                                        <span>People&#39;s Party</span> : 1
+                                    </span>
+                                    <span class="caucus-members-count"> 
+                                        <span>Co-operative Commonwealth Federation</span> : 1
+                                    </span>
+                                </div>
+                                <div class="table-cell members-work-link">
+                                    <i class="hoc-icon icon-right"></i>
+                                </div>
+                            </a>
+                            <a href="//www.parl.ca/LegisInfo/Home.aspx?Language=en" class="table-row">
+                                <div class="table-cell members-work-ammount">
+                                    441
+                                </div>
+                                <div class="table-cell members-work-type text-uppercase">
+                                    <strong class="hoc-green-txt">Bills</strong>
+                                    <small>Presented</small>
+                                </div>
+                                <div class="table-cell members-work-type-details hidden-sm hidden-xs">
+                                    An idea to make a new law or change an existing law starts out as a bill.
+                                </div>
+                                <div class="table-cell members-work-link">
+                                    <i class="hoc-icon icon-right"></i>
+                                </div>
+                            </a>
+                            <a href="/Parliamentarians/en/votes" class="table-row">
+                                <div class="table-cell members-work-ammount">
+                                    1379
+                                </div>
+                                <div class="table-cell members-work-type text-uppercase">
+                                    <strong class="hoc-green-txt">Votes</strong>
+                                    <small>Recorded</small>
+                                </div>
+                                <div class="table-cell members-work-type-details hidden-sm hidden-xs">
+                                    Compilation of recorded votes, where the names of those voting for and against a motion are registered.
+                                </div>
+                                <div class="table-cell members-work-link">
+                                    <i class="hoc-icon icon-right"></i>
+                                </div>
+                            </a>
+                            <a href="https://petitions.ourcommons.ca/en/Home" class="table-row">
+                                <div class="table-cell members-work-ammount">
+                                    4863
+                                </div>
+                                <div class="table-cell members-work-type text-uppercase">
+                                    <strong class="hoc-green-txt">Petitions</strong>
+                                    <small>Presented</small>
+                                </div>
+                                <div class="table-cell members-work-type-details hidden-sm hidden-xs">
+                                    Petitions are an easy way to participate in Canada&#39;s democracy.
+                                </div>
+                                <div class="table-cell members-work-link">
+                                    <i class="hoc-icon icon-right"></i>
+                                </div>
+                            </a>
+                            <a href="//www.ourcommons.ca/Committees/en/Home" class="table-row">
+                                <div class="table-cell members-work-ammount">
+                                    30
+                                </div>
+                                <div class="table-cell members-work-type text-uppercase">
+                                    <strong class="hoc-green-txt">Committees</strong>
+                                    <small>Established</small>
+                                </div>
+                                <div class="table-cell members-work-type-details hidden-sm hidden-xs">
+                                    Committees are small groups of parliamentarians created to perform key tasks.
+                                </div>
+                                <div class="table-cell members-work-link">
+                                    <i class="hoc-icon icon-right"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="members-work-topics">
+                        <div style="">
+                            <h3>Most Discussed Topics in the House</h3>
+                            <ul>
+                                        <li><a href="//www.ourcommons.ca/Search/en/publications/hansard?topicId=39367">Government accountability</a></li>
+                                        <li><a href="//www.ourcommons.ca/Search/en/publications/hansard?topicId=41162">Trade agreements</a></li>
+                                        <li><a href="//www.ourcommons.ca/Search/en/publications/hansard?topicId=40214">Oil and gas</a></li>
+                                        <li><a href="//www.ourcommons.ca/Search/en/publications/hansard?topicId=39370">Government assistance</a></li>
+                                        <li><a href="//www.ourcommons.ca/Search/en/publications/hansard?topicId=64413">Public consultation</a></li>
+                            </ul><a href="//www.ourcommons.ca/Search/en/publications/hansard#show-topics" class="btn btn-default">More topics</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+    // Store the currently selected tab in the hash value.
+    $("#tabbed-widget-tab-list > li > a").on("shown.bs.tab", function (e) {
+
+        var id = $(e.target).attr("href").substr(1);
+        id = id.replace('tabbed-widget-', 'pw-');
+
+        var hash = window.location.hash;
+
+        if (hash != '') {
+            hash = hash.substr(1);
+
+            var items = hash.split(',');
+            var regex = new RegExp('^pw-', "i");
+            var itemFound = false;
+
+            // Replace an existing value in the hash for the find tab control or add it if not present.
+            for (i = 0; i < items.length; i++) {
+                if (regex.exec(items[i]) !== null) {
+                    items[i] = id;
+                    itemFound = true;
+                    break;
+                }
+            }
+            if (!itemFound) {
+                items.push(id);
+            }
+
+            hash = items.join();
+        }
+        else {
+            hash = id;
+        }
+
+        window.location.hash = hash;
+
+    });
+
+
+    // On load of the page: switch to the currently selected tab.
+    $(document).ready(function () {
+
+        var hash = window.location.hash;
+
+        if (hash != '') {
+
+            // Remove the # character that comes at the start of the returned hash value.
+            hash = hash.substr(1);
+
+            // As many different tab control ids can be contained in the hash value, find the
+            // one for the parliament work tab control and show that tab.
+            var items = hash.split(',');
+            var item = '';
+            var regex = new RegExp('^pw-', "i");
+
+            for (i = 0; i < items.length; i++) {
+                if (regex.exec(items[i]) !== null) {
+                    item = items[i];
+                    break;
+                }
+            }
+            if (item != '') {
+                $('#tabbed-widget-tab-list a[href="#' + item.replace('pw-', 'tabbed-widget-') + '"]').tab('show');
+            }
+        }
+    });
+    
+
+
+    //function setUrlHash(value, urlHashPrefix) {
+
+    //    var hash = window.location.hash;
+
+    //    if (hash != '') {
+    //        // Remove the beginning # that comes with the window.location.hash value.
+    //        hash = hash.substr(1);
+
+    //        var items = hash.split(',');
+    //        var regex = new RegExp('^' + urlHashPrefix, "i");
+    //        var itemFound = false;
+
+    //        // Replace an existing value in the hash for the find tab control or add it if not present.
+    //        for (i = 0; i < items.length; i++) {
+    //            if (regex.exec(items[i]) !== null) {
+    //                items[i] = value;
+    //                itemFound = true;
+    //                break;
+    //            }
+    //        }
+    //        if (!itemFound) {
+    //            items.push(value);
+    //        }
+
+    //        hash = items.join();
+    //    }
+    //    else {
+    //        hash = value;
+    //    }
+
+    //    window.location.hash = hash;
+    //}
+
+    //function getUrlHashValue(urlHashPrefix) {
+
+    //    var hash = window.location.hash;
+    //    var item = '';
+
+    //    if (hash != '') {
+
+    //        // Remove the # character that comes at the start of the returned hash value.
+    //        hash = hash.substr(1);
+
+    //        // As many different tab control ids can be contained in the hash value, find the
+    //        // one for the parliament work tab control and show that tab.
+    //        var items = hash.split(',');
+    //        var regex = new RegExp('^' + urlHashPrefix, "i");
+
+    //        for (i = 0; i < items.length; i++) {
+    //            if (regex.exec(items[i]) !== null) {
+    //                item = items[i];
+    //                break;
+    //            }
+    //        }
+    //    }
+
+    //    return item;
+    //}
+
+</script>
+
+    <div class="row">
+        <div class="col-widget-find">
+            <article class="widget-container">
+                <a role="button" tabindex="-1" class="widget-accordion-panel-heading collapsed" data-toggle="collapse" href="#widget-find-content" aria-expanded="true" id="widget-find-btn" aria-controls="widget-find-content">
+                    <h2 class="widget-title serif">Find</h2>
+                </a>
+                <div id="widget-find-content" class="widget-accordion-panel-body panel-collapse collapse" role="tabpanel" aria-labelledby="widget-find-btn">
+                    
+<div class="clearfix">
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs hidden-sm hidden-xs" role="tablist" id="find-widget-tabs">
+            <li role="presentation" class=" active" title="Find a Member" aria-label="Find a Member">
+                <a id="find-member-tab" href="#find-member" aria-controls="find-member" role="tab" data-toggle="tab"
+                    data-analytics-eventcategory="HocPortal - Home - Find" 
+                    data-analytics-eventaction="click"
+                    data-analytics-eventlabel="Member">Member</a>
+            </li>
+                    <li role="presentation" class="" title="Find a bill" aria-label="Find a bill">
+                <a id="find-bill-tab" href="#find-bill" aria-controls="find-bill" role="tab" data-toggle="tab"
+                    data-analytics-eventcategory="HocPortal - Home - Find" 
+                    data-analytics-eventaction="click"
+                    data-analytics-eventlabel="Bill">Bill</a>
+            </li>
+                    <li role="presentation" class="" title="Find a topic" aria-label="Find a topic">
+                <a id="find-topic-tab" href="#find-topic" aria-controls="find-topic" role="tab" data-toggle="tab"
+                    data-analytics-eventcategory="HocPortal - Home - Find" 
+                    data-analytics-eventaction="click"
+                    data-analytics-eventlabel="Topic">Topic</a>
+            </li>
+                    <li role="presentation" class="" title="Find a petition" aria-label="Find a petition">
+                <a id="find-petition-tab" href="#find-petition" aria-controls="find-petition" role="tab" data-toggle="tab"
+                    data-analytics-eventcategory="HocPortal - Home - Find" 
+                    data-analytics-eventaction="click"
+                    data-analytics-eventlabel="Petition">Petition</a>
+            </li>
+                    <li role="presentation" class="" title="Search the website" aria-label="Search the website">
+                <a id="find-full-tab" href="#find-full" aria-controls="find-full" role="tab" data-toggle="tab"
+                    data-analytics-eventcategory="HocPortal - Home - Find" 
+                    data-analytics-eventaction="click"
+                    data-analytics-eventlabel="Full website">Full website</a>
+            </li>
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content find-tab-content">
+        <label for="find-widget-select" class="sr-only">Tab panes</label>
+        <select id="find-widget-select" class="form-control visible-sm visible-xs find-widget-select">
+                <option value="0">Member</option>
+                            <option value="1">Bill</option>
+                            <option value="2">Topic</option>
+                            <option value="3">Petition</option>
+                            <option value="4">Full website</option>
+        </select>
+
+            <div role="tabpanel" class="tab-pane  active" id="find-member" aria-labelledby="find-member-tab">
+                <h3 class="sr-only">Find a Member</h3>
+                <form action=//www.ourcommons.ca/Search/en/members-of-parliament method="post">
+                    <div class="form-group">
+                        <label for="find-widget-member-search" class="sr-only">Name, postal code or constituency</label>
+                        <div class="input-group">
+                            <input type="text" id="find-widget-member-search" name="text" placeholder="Name, postal code or constituency" class="form-control input" />
+                            <div class="input-group-addon">
+                                <button type="submit" id="btnStart" class="btn btn-primary" title="Find a Member" aria-label="Find a Member">
+                                    <i class="hoc-icon icon-search"></i><span class="sr-only">Find a Member</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <div>
+                    <a class="double-line-height" href="/Members/en">All Members of Parliament</a>
+                </div>
+                <div class="dropdown">
+                    <a class="dropdown-toggle double-line-height" data-toggle="dropdown" href="">By province or territory</a>
+                    <ul class="dropdown-menu" role="listbox">
+                                <li><a tabindex="-1" href="/Members/en/search?province=AB">Alberta</a></li>
+                                <li><a tabindex="-1" href="/Members/en/search?province=BC">British Columbia</a></li>
+                                <li><a tabindex="-1" href="/Members/en/search?province=MB">Manitoba</a></li>
+                                <li><a tabindex="-1" href="/Members/en/search?province=NB">New Brunswick</a></li>
+                                <li><a tabindex="-1" href="/Members/en/search?province=NL">Newfoundland and Labrador</a></li>
+                                <li><a tabindex="-1" href="/Members/en/search?province=NS">Nova Scotia</a></li>
+                                <li><a tabindex="-1" href="/Members/en/search?province=NT">Northwest Territories</a></li>
+                                <li><a tabindex="-1" href="/Members/en/search?province=NU">Nunavut</a></li>
+                                <li><a tabindex="-1" href="/Members/en/search?province=ON">Ontario</a></li>
+                                <li><a tabindex="-1" href="/Members/en/search?province=PE">Prince Edward Island</a></li>
+                                <li><a tabindex="-1" href="/Members/en/search?province=QC">Quebec</a></li>
+                                <li><a tabindex="-1" href="/Members/en/search?province=SK">Saskatchewan</a></li>
+                                <li><a tabindex="-1" href="/Members/en/search?province=YT">Yukon</a></li>
+                    </ul>
+                </div>
+                <div class="dropdown">
+                    <a class="dropdown-toggle double-line-height" data-toggle="dropdown" href="">By political affiliation</a>
+                    <ul class="dropdown-menu" role="listbox">
+                                <li><a tabindex="-1" href="/Members/en/search?caucusId=6">Bloc Qu&#233;b&#233;cois Caucus</a></li>
+                                <li><a tabindex="-1" href="/Members/en/search?caucusId=8781">Conservative Caucus</a></li>
+                                <li><a tabindex="-1" href="/Members/en/search?caucusId=24046">Co-operative Commonwealth Federation Caucus</a></li>
+                                <li><a tabindex="-1" href="/Members/en/search?caucusId=14130">Green Party Caucus</a></li>
+                                <li><a tabindex="-1" href="/Members/en/search?caucusId=8">Independent</a></li>
+                                <li><a tabindex="-1" href="/Members/en/search?caucusId=4">Liberal Caucus</a></li>
+                                <li><a tabindex="-1" href="/Members/en/search?caucusId=3">New Democratic Party Caucus</a></li>
+                                <li><a tabindex="-1" href="/Members/en/search?caucusId=24357">People&#39;s Party Caucus</a></li>
+                    </ul>
+                </div>
+            </div>
+                    <div role="tabpanel" class="tab-pane " id="find-bill" aria-labelledby="find-bill-tab">
+                <h3 class="sr-only">Find a bill</h3>
+                <form action=//www.ourcommons.ca/Search/en/bills method="post">
+                    <div class="form-group">
+                        <label for="find-widget-bill-search" class="sr-only">Bill number or title</label>
+                        <div class="input-group">
+                            <input type="text" id="find-widget-bill-search" name="text" placeholder="Bill number or title" class="form-control input" />
+                            <div class="input-group-addon">
+                                <button type="submit" class="btn btn-primary" title="Find a bill" aria-label="Find a bill">
+                                    <i class="hoc-icon icon-search"></i><span class="sr-only">Find a bill</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <div>
+                    <a class="double-line-height" href="//www.parl.ca/LegisInfo/LAAG.aspx?Language=en&amp;Mode=1">Legislation at a glance</a>
+                </div>
+                <div>
+                    <a class="double-line-height" href="//www.parl.ca/LegisInfo/Home.aspx?Language=en">All bills (LEGIS<em>info</em>)</a>
+                </div>
+            </div>
+                    <div role="tabpanel" class="tab-pane " id="find-topic" aria-labelledby="find-topic-tab">
+                <h3 class="sr-only">Find a topic</h3>
+                <form action=//www.ourcommons.ca/Search/en/publications/hansard method="post">
+                    <div class="form-group">
+                        <label for="find-widget-topic-search" class="sr-only">Name, text, topics or constituency</label>
+                        <div class="input-group">
+                            <input type="text" id="find-widget-topic-search" name="text" placeholder="Name, text, topics or constituency" class="form-control input" />
+                            <div class="input-group-addon">
+                                <button type="submit" class="btn btn-primary" title="Find a topic" aria-label="Find a topic">
+                                    <i class="hoc-icon icon-search"></i><span class="sr-only">Find a topic</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <div class="row is-xs-table-row">
+                    <div class="col-xs-1">
+                        <span class="double-line-height find-topic-search text-nowrap" title="Find a topic" aria-label="Find a topic">Search:</span>
+                    </div>
+                    <div class="col-xs-11">
+                        <div>
+                            <a class="double-line-height" href="//www.ourcommons.ca/Search/en/publications/hansard" title="Search debates (Hansard)" aria-label="Search debates (Hansard)">
+                                Debates (Hansard)
+                            </a>
+                        </div>
+                        <div>
+                            <a class="double-line-height" href="//www.ourcommons.ca/Search/en/publications/evidence" title="Search committee evidence" aria-label="Search committee evidence">
+                                Committee evidence
+                            </a>
+                        </div>
+                        <div>
+                            <a class="double-line-height" href="//www.ourcommons.ca/Search/en/publications/journals" title="Search journals" aria-label="Search journals">
+                                Journals
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                    <div role="tabpanel" class="tab-pane " id="find-petition" aria-labelledby="find-petition-tab">
+                <h3 class="sr-only">Find a petition</h3>
+                <form action=//www.ourcommons.ca/Search/en/petitions method="post">
+                    <div class="form-group">
+                        <label for="find-widget-e-petition-search-text" class="sr-only">Subject, petition #, content or M.P.</label>
+                        <div class="input-group">
+                            <input type="text" id="find-widget-e-petition-search-text" name="text" placeholder="Subject, petition #, content or M.P." class="form-control input" />
+                            <div class="input-group-addon">
+                                <button type="submit" class="btn btn-primary" title="Find a petition" aria-label="Find a petition">
+                                    <i class="hoc-icon icon-search"></i><span class="sr-only">Find a petition</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <div style="line-height:2">
+                    <a href="https://petitions.ourcommons.ca/en/Petition/Search?category=All&amp;parl=Latest&amp;order=Recent">View all petitions</a>
+                </div>
+                <div style="line-height:2">
+                    <a href="https://petitions.ourcommons.ca/en/Petition/Search?category=Open">Petitions open for signature</a>
+                </div>
+                <div style="line-height:2">
+                    <a href="https://petitions.ourcommons.ca/en/Petition/Search?category=Responses&amp;parl=Latest">Petitions with government responses</a>
+                </div>
+            </div>
+                    <div role="tabpanel" class="tab-pane " id="find-full" aria-labelledby="find-full-tab">
+                <h3 class="sr-only">Search the website</h3>
+                <form action=//www.ourcommons.ca/Search/en/website method="post">
+                    <div class="form-group">
+                        <label for="find-widget-all-search" class="sr-only">Search the website</label>
+                        <div class="input-group">
+                            <input type="text" id="find-widget-all-search" name="text" placeholder="Search" class="form-control input" />
+                            <div class="input-group-addon">
+                                <button type="submit" class="btn btn-primary" title="Search the website" aria-label="Search the website">
+                                    <i class="hoc-icon icon-search"></i><span class="sr-only">Search the website</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $('#find-widget-select').on('change', function (e) {
+        $('#find-widget-tabs li a').eq($(this).val()).tab('show');
+    });
+
+    // Store the currently selected tab in the hash value.
+    $("#find-widget-tabs > li > a").on("shown.bs.tab", function (e) {
+
+        var id = $(e.target).attr("href").substr(1);
+        id = id.replace('find-', 'f-');
+
+        var hash = window.location.hash;
+
+        if (hash != '') {
+            hash = hash.substr(1);
+
+            var items = hash.split(',');
+            var regex = new RegExp('^f-', "i");
+            var itemFound = false;
+
+            // Replace an existing value in the hash for the find tab control or add it if not present.
+            for (i = 0; i < items.length; i++) {
+                if (regex.exec(items[i]) !== null) {
+                    items[i] = id;
+                    itemFound = true;
+                    break;
+                }
+            }
+            if (!itemFound) {
+                items.push(id);
+            }
+
+            hash = items.join();
+        }
+        else {
+            hash = id;
+        }
+
+        window.location.hash = hash;
+    });
+
+
+    // On load of the page: switch to the currently selected tab.
+    $(document).ready(function () {
+
+        var hash = window.location.hash;
+
+        if (hash != '') {
+
+            // Remove the # character that comes at the start of the returned hash value.
+            hash = hash.substr(1);
+
+            // As many different tab control ids can be contained in the hash value, find the
+            // one for the parliament work tab control and show that tab.
+            var items = hash.split(',');
+            var item = '';
+            var regex = new RegExp('^f-', "i");
+
+            for (var i = 0; i < items.length; i++) {
+                if (regex.exec(items[i]) !== null) {
+                    item = items[i];
+                    break;
+                }
+            }
+            if (item != '') {
+                $('#find-widget-tabs a[href="#' + item.replace('f-', 'find-') + '"]').tab('show');
+            }
+        }
+    });
+</script>
+                </div>
+            </article>
+        </div>
+        <div class="col-widget-calendar">
+            <article class="calendar-widget-container widget-container">
+                <a role="button" tabindex="-1" class="widget-accordion-panel-heading collapsed" data-toggle="collapse" href="#widget-calendar-content" aria-expanded="true" id="widget-calendar-btn" aria-controls="widget-calendar-content">
+                    <h2 class="widget-title serif">Business Calendar</h2>
+                </a>
+                <div id="widget-calendar-content" class="widget-accordion-panel-body panel-collapse collapse" role="tabpanel" aria-labelledby="widget-calendar-btn">
+                    
+
+
+
+<div class="calendar-widget widget">
+    <div class="intro">
+        <p class="instructions">Select a date to view past or scheduled Parliamentary Business. <i class="hoc-icon icon-info-circle" data-container="body" data-html="true" data-toggle="tooltip" title="" role="tooltip" data-original-title="This calendar goes as far back as December 3, 2015. Previous business can be consulted by selecting relevant links on this page."><span class="sr-only">This calendar goes as far back as December 3, 2015. Previous business can be consulted by selecting relevant links on this page.</span></i></p>
+    </div>
+    <div class="calendar-display" data-language-code="en" data-current-date="2019-11-04 12:00 AM" data-selected-date="2019-11-04 12:00 AM" data-calendar-start="2015-12-03 12:00 AM" data-calendar-end="2020-12-31 12:00 AM">
+        <div class="calendar-month">
+            <div class="calendar-controls">
+                <div class="row">
+                    <div class="col-xs-2">
+                        
+                        <a href="/en/home?selectedMonth=2019-10-04" class="calendar-control-prev btn btn-primary ">
+                            <i class="hoc-icon icon-left"></i>
+                            <span class="sr-only">Previous month</span>
+                        </a>
+                    </div>
+                    <div class="col-xs-8"><span class="calendar-control-current-month btn btn-primary">November 2019</span></div>
+                    <div class="col-xs-2">
+                        <a href="/en/home?selectedMonth=2019-12-04" class="calendar-control-next btn btn-primary ">
+                            <i class="hoc-icon icon-right"></i>
+                            <span class="sr-only">Next month</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <table class="hoc-calendar table-responsive"
+                   data-day="4"
+                   data-month="11"
+                   data-year="2019"
+                   data-url="/en/parliamentary-business">
+                <thead class="calendar-display-titles">
+                    <tr>
+                        <th scope="col"><span class="sr-only">Sunday</span><abbr title="Sunday" aria-hidden="true">Sun</abbr></th>
+                        <th scope="col"><span class="sr-only">Monday</span><abbr title="Monday" aria-hidden="true">Mon</abbr></th>
+                        <th scope="col"><span class="sr-only">Tuesday</span><abbr title="Tuesday" aria-hidden="true">Tue</abbr></th>
+                        <th scope="col"><span class="sr-only">Wednesday</span><abbr title="Wednesday" aria-hidden="true">Wed</abbr></th>
+                        <th scope="col"><span class="sr-only">Thursday</span><abbr title="Thursday" aria-hidden="true">Thu</abbr></th>
+                        <th scope="col"><span class="sr-only">Friday</span><abbr title="Friday" aria-hidden="true">Fri</abbr></th>
+                        <th scope="col"><span class="sr-only">Saturday</span><abbr title="Saturday" aria-hidden="true">Sat</abbr></th>
+                    </tr>
+                </thead>
+                <tbody class="tbl-Body-Month">
+
+                        <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                        <td class="  ">
+                                            <a href="/en/parliamentary-business/2019-11-01"
+                                            class=""
+                                            data-analytics-eventcategory="HocPortal - Home - Calendar Widget"
+                                            data-analytics-eventaction="click"
+                                            data-analytics-eventlabel="2019-11-01 12:00 AM">
+                                            
+                                            <div class='date'>1</div>
+                                            
+                                            <div class="hoc-cal-event-icons">
+                                            
+                                            <i class='hoc-icon icon-triangle pd-event'></i><span class='sr-only'>Parliamentary Diplomacy Events</span>
+                                            
+                                            </div>
+                                            </a>
+                                        </td>
+                                        <td class=" ">
+                                            <div class='date'>2</div>
+                                        </td>
+                        </tr>
+                        <tr>
+                                        <td class=" ">
+                                            <div class='date'>3</div>
+                                        </td>
+                                        <td class=" currentDay selectedDay">
+                                            <a href="/en/parliamentary-business/2019-11-04"
+                                            class=""
+                                            data-analytics-eventcategory="HocPortal - Home - Calendar Widget"
+                                            data-analytics-eventaction="click"
+                                            data-analytics-eventlabel="2019-11-04 12:00 AM">
+                                            
+                                            <div class='date'>4</div>
+                                            
+                                            <div class="hoc-cal-event-icons">
+                                            
+                                            
+                                            
+                                            </div>
+                                            </a>
+                                        </td>
+                                        <td class=" ">
+                                            <div class='date'>5</div>
+                                        </td>
+                                        <td class=" ">
+                                            <div class='date'>6</div>
+                                        </td>
+                                        <td class=" ">
+                                            <div class='date'>7</div>
+                                        </td>
+                                        <td class=" ">
+                                            <div class='date'>8</div>
+                                        </td>
+                                        <td class=" ">
+                                            <div class='date'>9</div>
+                                        </td>
+                        </tr>
+                        <tr>
+                                        <td class=" ">
+                                            <div class='date'>10</div>
+                                        </td>
+                                        <td class=" ">
+                                            <div class='date'>11</div>
+                                        </td>
+                                        <td class=" ">
+                                            <div class='date'>12</div>
+                                        </td>
+                                        <td class="  ">
+                                            <a href="/en/parliamentary-business/2019-11-13"
+                                            class=""
+                                            data-analytics-eventcategory="HocPortal - Home - Calendar Widget"
+                                            data-analytics-eventaction="click"
+                                            data-analytics-eventlabel="2019-11-13 12:00 AM">
+                                            
+                                            <div class='date'>13</div>
+                                            
+                                            <div class="hoc-cal-event-icons">
+                                            
+                                            <i class='hoc-icon icon-triangle pd-event'></i><span class='sr-only'>Parliamentary Diplomacy Events</span>
+                                            
+                                            </div>
+                                            </a>
+                                        </td>
+                                        <td class="  ">
+                                            <a href="/en/parliamentary-business/2019-11-14"
+                                            class=""
+                                            data-analytics-eventcategory="HocPortal - Home - Calendar Widget"
+                                            data-analytics-eventaction="click"
+                                            data-analytics-eventlabel="2019-11-14 12:00 AM">
+                                            
+                                            <div class='date'>14</div>
+                                            
+                                            <div class="hoc-cal-event-icons">
+                                            
+                                            <i class='hoc-icon icon-triangle pd-event'></i><span class='sr-only'>Parliamentary Diplomacy Events</span>
+                                            
+                                            </div>
+                                            </a>
+                                        </td>
+                                        <td class="  ">
+                                            <a href="/en/parliamentary-business/2019-11-15"
+                                            class=""
+                                            data-analytics-eventcategory="HocPortal - Home - Calendar Widget"
+                                            data-analytics-eventaction="click"
+                                            data-analytics-eventlabel="2019-11-15 12:00 AM">
+                                            
+                                            <div class='date'>15</div>
+                                            
+                                            <div class="hoc-cal-event-icons">
+                                            
+                                            <i class='hoc-icon icon-triangle pd-event'></i><span class='sr-only'>Parliamentary Diplomacy Events</span>
+                                            
+                                            </div>
+                                            </a>
+                                        </td>
+                                        <td class=" ">
+                                            <div class='date'>16</div>
+                                        </td>
+                        </tr>
+                        <tr>
+                                        <td class=" ">
+                                            <div class='date'>17</div>
+                                        </td>
+                                        <td class="  ">
+                                            <a href="/en/parliamentary-business/2019-11-18"
+                                            class=""
+                                            data-analytics-eventcategory="HocPortal - Home - Calendar Widget"
+                                            data-analytics-eventaction="click"
+                                            data-analytics-eventlabel="2019-11-18 12:00 AM">
+                                            
+                                            <div class='date'>18</div>
+                                            
+                                            <div class="hoc-cal-event-icons">
+                                            
+                                            <i class='hoc-icon icon-triangle pd-event'></i><span class='sr-only'>Parliamentary Diplomacy Events</span>
+                                            
+                                            </div>
+                                            </a>
+                                        </td>
+                                        <td class="  ">
+                                            <a href="/en/parliamentary-business/2019-11-19"
+                                            class=""
+                                            data-analytics-eventcategory="HocPortal - Home - Calendar Widget"
+                                            data-analytics-eventaction="click"
+                                            data-analytics-eventlabel="2019-11-19 12:00 AM">
+                                            
+                                            <div class='date'>19</div>
+                                            
+                                            <div class="hoc-cal-event-icons">
+                                            
+                                            <i class='hoc-icon icon-triangle pd-event'></i><span class='sr-only'>Parliamentary Diplomacy Events</span>
+                                            
+                                            </div>
+                                            </a>
+                                        </td>
+                                        <td class=" ">
+                                            <div class='date'>20</div>
+                                        </td>
+                                        <td class=" ">
+                                            <div class='date'>21</div>
+                                        </td>
+                                        <td class=" ">
+                                            <div class='date'>22</div>
+                                        </td>
+                                        <td class=" ">
+                                            <div class='date'>23</div>
+                                        </td>
+                        </tr>
+                        <tr>
+                                        <td class=" ">
+                                            <div class='date'>24</div>
+                                        </td>
+                                        <td class="  ">
+                                            <a href="/en/parliamentary-business/2019-11-25"
+                                            class=""
+                                            data-analytics-eventcategory="HocPortal - Home - Calendar Widget"
+                                            data-analytics-eventaction="click"
+                                            data-analytics-eventlabel="2019-11-25 12:00 AM">
+                                            
+                                            <div class='date'>25</div>
+                                            
+                                            <div class="hoc-cal-event-icons">
+                                            
+                                            <i class='hoc-icon icon-triangle pd-event'></i><span class='sr-only'>Parliamentary Diplomacy Events</span>
+                                            
+                                            </div>
+                                            </a>
+                                        </td>
+                                        <td class="  ">
+                                            <a href="/en/parliamentary-business/2019-11-26"
+                                            class=""
+                                            data-analytics-eventcategory="HocPortal - Home - Calendar Widget"
+                                            data-analytics-eventaction="click"
+                                            data-analytics-eventlabel="2019-11-26 12:00 AM">
+                                            
+                                            <div class='date'>26</div>
+                                            
+                                            <div class="hoc-cal-event-icons">
+                                            
+                                            <i class='hoc-icon icon-triangle pd-event'></i><span class='sr-only'>Parliamentary Diplomacy Events</span>
+                                            
+                                            </div>
+                                            </a>
+                                        </td>
+                                        <td class="  ">
+                                            <a href="/en/parliamentary-business/2019-11-27"
+                                            class=""
+                                            data-analytics-eventcategory="HocPortal - Home - Calendar Widget"
+                                            data-analytics-eventaction="click"
+                                            data-analytics-eventlabel="2019-11-27 12:00 AM">
+                                            
+                                            <div class='date'>27</div>
+                                            
+                                            <div class="hoc-cal-event-icons">
+                                            
+                                            <i class='hoc-icon icon-triangle pd-event'></i><span class='sr-only'>Parliamentary Diplomacy Events</span>
+                                            
+                                            </div>
+                                            </a>
+                                        </td>
+                                        <td class="  ">
+                                            <a href="/en/parliamentary-business/2019-11-28"
+                                            class=""
+                                            data-analytics-eventcategory="HocPortal - Home - Calendar Widget"
+                                            data-analytics-eventaction="click"
+                                            data-analytics-eventlabel="2019-11-28 12:00 AM">
+                                            
+                                            <div class='date'>28</div>
+                                            
+                                            <div class="hoc-cal-event-icons">
+                                            
+                                            <i class='hoc-icon icon-triangle pd-event'></i><span class='sr-only'>Parliamentary Diplomacy Events</span>
+                                            
+                                            </div>
+                                            </a>
+                                        </td>
+                                        <td class="  ">
+                                            <a href="/en/parliamentary-business/2019-11-29"
+                                            class=""
+                                            data-analytics-eventcategory="HocPortal - Home - Calendar Widget"
+                                            data-analytics-eventaction="click"
+                                            data-analytics-eventlabel="2019-11-29 12:00 AM">
+                                            
+                                            <div class='date'>29</div>
+                                            
+                                            <div class="hoc-cal-event-icons">
+                                            
+                                            <i class='hoc-icon icon-triangle pd-event'></i><span class='sr-only'>Parliamentary Diplomacy Events</span>
+                                            
+                                            </div>
+                                            </a>
+                                        </td>
+                                        <td class=" ">
+                                            <div class='date'>30</div>
+                                        </td>
+                        </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="calendar-year">
+            <div class="calendar-controls">
+                <div class="row">
+                    <div class="col-xs-2">
+                        <a href="" class="calendar-control-prev-year btn btn-primary ">
+                            <i class="hoc-icon icon-left"></i>
+                            <span class="sr-only">Year -- </span>
+                        </a>
+                    </div>
+                    <div class="col-xs-8"><span class="calendar-control-current-year btn btn-primary">2019</span></div>
+                    <div class="col-xs-2">
+                        <a href="" class="calendar-control-next-year btn btn-primary ">
+                            <i class="hoc-icon icon-right"></i>
+                            <span class="sr-only">>NextYear</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <style>
+                .hoc-calendar-year {
+                    transform: scale(0);
+                }
+
+                    .hoc-calendar-year.Show {
+                        transform: scale(1);
+                        transition: transform 0.35s ease-out;
+                    }
+            </style>
+            <table class="hoc-calendar-year table-responsive"
+                   data-month="11"
+                   data-year="2019"
+                   data-url="/en/parliamentary-business">
+                <tbody>
+                            <tr>
+                                    <td class="year-month
+                                        
+                                        ">
+                                        <a id="0" class="year-Calendar-month ">
+                                            Jan
+                                        </a>
+                                    </td>
+                                    <td class="year-month
+                                        
+                                        ">
+                                        <a id="1" class="year-Calendar-month ">
+                                            Feb
+                                        </a>
+                                    </td>
+                                    <td class="year-month
+                                        
+                                        ">
+                                        <a id="2" class="year-Calendar-month ">
+                                            Mar
+                                        </a>
+                                    </td>
+                                    <td class="year-month
+                                        
+                                        ">
+                                        <a id="3" class="year-Calendar-month ">
+                                            Apr
+                                        </a>
+                                    </td>
+                            </tr>
+                            <tr>
+                                    <td class="year-month
+                                        
+                                        ">
+                                        <a id="4" class="year-Calendar-month ">
+                                            May
+                                        </a>
+                                    </td>
+                                    <td class="year-month
+                                        
+                                        ">
+                                        <a id="5" class="year-Calendar-month ">
+                                            Jun
+                                        </a>
+                                    </td>
+                                    <td class="year-month
+                                        
+                                        ">
+                                        <a id="6" class="year-Calendar-month ">
+                                            Jul
+                                        </a>
+                                    </td>
+                                    <td class="year-month
+                                        
+                                        ">
+                                        <a id="7" class="year-Calendar-month ">
+                                            Aug
+                                        </a>
+                                    </td>
+                            </tr>
+                            <tr>
+                                    <td class="year-month
+                                        
+                                        ">
+                                        <a id="8" class="year-Calendar-month ">
+                                            Sep
+                                        </a>
+                                    </td>
+                                    <td class="year-month
+                                        
+                                        ">
+                                        <a id="9" class="year-Calendar-month ">
+                                            Oct
+                                        </a>
+                                    </td>
+                                    <td class="year-month
+                                         currentMonth
+                                         selectedMonth">
+                                        <a id="10" class="year-Calendar-month ">
+                                            Nov
+                                        </a>
+                                    </td>
+                                    <td class="year-month
+                                        
+                                        ">
+                                        <a id="11" class="year-Calendar-month ">
+                                            Dec
+                                        </a>
+                                    </td>
+                            </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+        <ul class="calendar-legend" aria-hidden="true">
+            <li>
+                <span class="sitting-day"></span>
+                House Sitting Days
+            </li>
+            <li>
+                <i class="hoc-icon icon-circle house-publications"></i>
+                House Publications
+            </li>
+            <li>
+                <i class="hoc-icon icon-square committee-meeting"></i>
+                Committee Meetings
+            </li>
+            <li>
+                <i class="hoc-icon icon-triangle pd-event"></i>
+                Parliamentary Diplomacy Events
+            </li>
+        </ul>
+    </div>
+
+    <hr />
+    <div class="intro">
+        <a href="/en/sitting-calendar"
+           rel="external"
+           class="btn btn-default btn-block">House sitting calendar</a>
+    </div>
+</div>
+
+<script type="text/javascript">
+    if (!HocPortal) { var HocPortal = { } }
+    if (!HocPortal.Data) { HocPortal.Data = {} }
+
+    HocPortal.Data.CalendarData = {};
+        HocPortal.Data.CalendarData[2015] = {"2015-01-10T00:00:00":[3],"2015-01-11T00:00:00":[3],"2015-01-12T00:00:00":[3],"2015-01-13T00:00:00":[3],"2015-01-14T00:00:00":[3],"2015-01-15T00:00:00":[3],"2015-01-16T00:00:00":[3],"2015-01-17T00:00:00":[3],"2015-01-18T00:00:00":[3],"2015-01-19T00:00:00":[3],"2015-01-20T00:00:00":[3],"2015-01-21T00:00:00":[3],"2015-01-22T00:00:00":[3],"2015-01-23T00:00:00":[3],"2015-01-24T00:00:00":[3],"2015-01-25T00:00:00":[3],"2015-01-26T00:00:00":[3,1,2,4],"2015-01-27T00:00:00":[3,1,2,4],"2015-01-28T00:00:00":[3,1,2,4],"2015-01-29T00:00:00":[3,1,2,4],"2015-01-30T00:00:00":[3,1,4],"2015-01-31T00:00:00":[3],"2015-02-01T00:00:00":[3],"2015-02-02T00:00:00":[1,2,4],"2015-02-03T00:00:00":[1,2,3,4],"2015-02-04T00:00:00":[1,2,3,4],"2015-02-05T00:00:00":[1,2,3,4],"2015-02-06T00:00:00":[3,1,4],"2015-02-07T00:00:00":[3],"2015-02-08T00:00:00":[3],"2015-02-09T00:00:00":[3],"2015-02-10T00:00:00":[3],"2015-02-11T00:00:00":[3],"2015-02-12T00:00:00":[3],"2015-02-13T00:00:00":[3],"2015-02-14T00:00:00":[3],"2015-02-15T00:00:00":[3],"2015-02-16T00:00:00":[3,1,2,4],"2015-02-17T00:00:00":[3,1,2,4],"2015-02-18T00:00:00":[3,1,2,4],"2015-02-19T00:00:00":[3,1,2,4],"2015-02-20T00:00:00":[3,1,4],"2015-02-21T00:00:00":[3],"2015-02-22T00:00:00":[3],"2015-02-23T00:00:00":[3,1,2,4],"2015-02-24T00:00:00":[3,1,2,4],"2015-02-25T00:00:00":[3,1,2,4],"2015-02-26T00:00:00":[3,1,2,4],"2015-02-27T00:00:00":[1,4],"2015-03-06T00:00:00":[2],"2015-03-09T00:00:00":[1,2,3,4],"2015-03-10T00:00:00":[3,1,2,4],"2015-03-11T00:00:00":[3,1,2,4],"2015-03-12T00:00:00":[1,2,4],"2015-03-13T00:00:00":[1,4],"2015-03-15T00:00:00":[3],"2015-03-16T00:00:00":[3],"2015-03-17T00:00:00":[3],"2015-03-18T00:00:00":[3],"2015-03-19T00:00:00":[3],"2015-03-20T00:00:00":[3],"2015-03-21T00:00:00":[3],"2015-03-23T00:00:00":[1,2,3,4],"2015-03-24T00:00:00":[3,1,2,4],"2015-03-25T00:00:00":[3,1,2,4],"2015-03-26T00:00:00":[3,1,2,4],"2015-03-27T00:00:00":[1,4],"2015-03-28T00:00:00":[3],"2015-03-29T00:00:00":[3],"2015-03-30T00:00:00":[3,1,2,4],"2015-03-31T00:00:00":[3,1,2,4],"2015-04-01T00:00:00":[3,1,2,4],"2015-04-02T00:00:00":[1,2,4],"2015-04-08T00:00:00":[3],"2015-04-09T00:00:00":[3],"2015-04-10T00:00:00":[3],"2015-04-11T00:00:00":[3],"2015-04-13T00:00:00":[3],"2015-04-14T00:00:00":[3],"2015-04-15T00:00:00":[3],"2015-04-16T00:00:00":[3],"2015-04-17T00:00:00":[3],"2015-04-18T00:00:00":[3],"2015-04-19T00:00:00":[3],"2015-04-20T00:00:00":[3,1,2,4],"2015-04-21T00:00:00":[3,1,2,4],"2015-04-22T00:00:00":[3,1,2,4],"2015-04-23T00:00:00":[3,1,2,4],"2015-04-24T00:00:00":[3,1,4],"2015-04-27T00:00:00":[1,2,3,4],"2015-04-28T00:00:00":[3,1,2,4],"2015-04-29T00:00:00":[3,1,2,4],"2015-04-30T00:00:00":[3,1,2,4],"2015-05-01T00:00:00":[3,1,4],"2015-05-02T00:00:00":[3],"2015-05-03T00:00:00":[3],"2015-05-04T00:00:00":[3,1,2,4],"2015-05-05T00:00:00":[3,1,2,4],"2015-05-06T00:00:00":[3,1,2,4],"2015-05-07T00:00:00":[3,1,2,4],"2015-05-08T00:00:00":[3,1,4],"2015-05-09T00:00:00":[3],"2015-05-10T00:00:00":[3],"2015-05-11T00:00:00":[3,1,2,4],"2015-05-12T00:00:00":[3,1,2,4],"2015-05-13T00:00:00":[1,2,4],"2015-05-14T00:00:00":[1,2,4],"2015-05-15T00:00:00":[1,3,4],"2015-05-16T00:00:00":[3],"2015-05-17T00:00:00":[3],"2015-05-18T00:00:00":[3],"2015-05-19T00:00:00":[3],"2015-05-20T00:00:00":[3],"2015-05-21T00:00:00":[3],"2015-05-22T00:00:00":[3],"2015-05-23T00:00:00":[3],"2015-05-24T00:00:00":[3],"2015-05-25T00:00:00":[3,1,2,4],"2015-05-26T00:00:00":[3,1,2,4],"2015-05-27T00:00:00":[3,1,2,4],"2015-05-28T00:00:00":[3,1,2,4],"2015-05-29T00:00:00":[3,1,4],"2015-05-31T00:00:00":[3],"2015-06-01T00:00:00":[3,1,2,4],"2015-06-02T00:00:00":[3,1,2,4],"2015-06-03T00:00:00":[1,2,3,4],"2015-06-04T00:00:00":[1,2,4],"2015-06-05T00:00:00":[1,4],"2015-06-08T00:00:00":[1,2,3,4],"2015-06-09T00:00:00":[3,1,2,4],"2015-06-10T00:00:00":[1,2,3,4],"2015-06-11T00:00:00":[1,2,4],"2015-06-12T00:00:00":[1,4],"2015-06-15T00:00:00":[1,2,4],"2015-06-16T00:00:00":[1,2,4],"2015-06-17T00:00:00":[1,2,4],"2015-06-18T00:00:00":[1,2,4],"2015-06-19T00:00:00":[1,4],"2015-06-23T00:00:00":[4],"2015-06-24T00:00:00":[3],"2015-06-25T00:00:00":[3],"2015-06-26T00:00:00":[3],"2015-06-28T00:00:00":[3],"2015-06-29T00:00:00":[3],"2015-06-30T00:00:00":[3,4],"2015-07-01T00:00:00":[3],"2015-07-05T00:00:00":[3],"2015-07-06T00:00:00":[3],"2015-07-07T00:00:00":[3],"2015-07-08T00:00:00":[3],"2015-07-09T00:00:00":[3],"2015-07-10T00:00:00":[3],"2015-07-12T00:00:00":[3],"2015-07-13T00:00:00":[3],"2015-07-14T00:00:00":[3],"2015-07-15T00:00:00":[3],"2015-07-16T00:00:00":[3],"2015-07-18T00:00:00":[3],"2015-07-19T00:00:00":[3],"2015-07-20T00:00:00":[3],"2015-07-21T00:00:00":[3],"2015-07-22T00:00:00":[3],"2015-07-23T00:00:00":[3],"2015-07-24T00:00:00":[3],"2015-07-25T00:00:00":[3],"2015-07-26T00:00:00":[3],"2015-07-27T00:00:00":[2,3],"2015-07-28T00:00:00":[3],"2015-07-29T00:00:00":[3],"2015-07-30T00:00:00":[3],"2015-07-31T00:00:00":[3],"2015-08-02T00:00:00":[3,4],"2015-08-03T00:00:00":[3],"2015-08-04T00:00:00":[3],"2015-08-05T00:00:00":[3],"2015-08-06T00:00:00":[3],"2015-08-16T00:00:00":[3],"2015-08-17T00:00:00":[3],"2015-08-18T00:00:00":[3],"2015-08-19T00:00:00":[3],"2015-09-03T00:00:00":[3],"2015-09-04T00:00:00":[3],"2015-09-05T00:00:00":[3],"2015-09-06T00:00:00":[3],"2015-09-21T00:00:00":[3],"2015-09-28T00:00:00":[3],"2015-09-29T00:00:00":[3],"2015-09-30T00:00:00":[3],"2015-10-01T00:00:00":[3],"2015-10-02T00:00:00":[3],"2015-10-03T00:00:00":[3],"2015-10-04T00:00:00":[3],"2015-10-05T00:00:00":[3],"2015-10-06T00:00:00":[3],"2015-10-09T00:00:00":[3],"2015-10-10T00:00:00":[3],"2015-10-11T00:00:00":[3],"2015-10-12T00:00:00":[3],"2015-10-15T00:00:00":[3],"2015-10-16T00:00:00":[3],"2015-10-17T00:00:00":[3],"2015-10-18T00:00:00":[3],"2015-10-19T00:00:00":[3],"2015-10-20T00:00:00":[3],"2015-10-21T00:00:00":[3],"2015-10-23T00:00:00":[3],"2015-10-24T00:00:00":[3],"2015-11-04T00:00:00":[3],"2015-11-05T00:00:00":[3],"2015-11-06T00:00:00":[3],"2015-11-07T00:00:00":[3],"2015-11-08T00:00:00":[3],"2015-11-12T00:00:00":[3],"2015-11-13T00:00:00":[3],"2015-11-14T00:00:00":[3],"2015-11-15T00:00:00":[3],"2015-11-23T00:00:00":[3],"2015-11-24T00:00:00":[3],"2015-11-26T00:00:00":[3],"2015-11-27T00:00:00":[3],"2015-11-28T00:00:00":[3],"2015-12-03T00:00:00":[1,4],"2015-12-04T00:00:00":[1,4],"2015-12-07T00:00:00":[1,3,4],"2015-12-08T00:00:00":[3,1,2,4],"2015-12-09T00:00:00":[1,3,4],"2015-12-10T00:00:00":[1,2,3,4],"2015-12-11T00:00:00":[3,1,4],"2015-12-12T00:00:00":[3],"2015-12-13T00:00:00":[3]};
+        HocPortal.Data.CalendarData[2016] = {"2016-01-09T00:00:00":[3],"2016-01-10T00:00:00":[3],"2016-01-11T00:00:00":[3],"2016-01-12T00:00:00":[3],"2016-01-13T00:00:00":[3],"2016-01-14T00:00:00":[3],"2016-01-17T00:00:00":[3],"2016-01-18T00:00:00":[3,2],"2016-01-19T00:00:00":[3],"2016-01-20T00:00:00":[3],"2016-01-21T00:00:00":[3],"2016-01-25T00:00:00":[1,2,4],"2016-01-26T00:00:00":[1,2,3,4],"2016-01-27T00:00:00":[3,1,2,4],"2016-01-28T00:00:00":[3,1,2,4],"2016-01-29T00:00:00":[3,1,4],"2016-01-30T00:00:00":[3],"2016-01-31T00:00:00":[3],"2016-02-01T00:00:00":[1,2,4],"2016-02-02T00:00:00":[1,2,3,4],"2016-02-03T00:00:00":[1,2,3,4],"2016-02-04T00:00:00":[1,2,3,4],"2016-02-05T00:00:00":[1,2,4],"2016-02-07T00:00:00":[3],"2016-02-08T00:00:00":[3],"2016-02-09T00:00:00":[3],"2016-02-10T00:00:00":[3],"2016-02-11T00:00:00":[3],"2016-02-12T00:00:00":[3],"2016-02-13T00:00:00":[3],"2016-02-14T00:00:00":[3],"2016-02-15T00:00:00":[3],"2016-02-16T00:00:00":[1,2,3,4],"2016-02-17T00:00:00":[1,2,3,4],"2016-02-18T00:00:00":[1,2,3,4],"2016-02-19T00:00:00":[1,2,3,4],"2016-02-20T00:00:00":[3],"2016-02-21T00:00:00":[3],"2016-02-22T00:00:00":[3,1,2,4],"2016-02-23T00:00:00":[3,1,2,4],"2016-02-24T00:00:00":[3,1,2,4],"2016-02-25T00:00:00":[3,1,2,4],"2016-02-26T00:00:00":[3,1,4],"2016-02-29T00:00:00":[3],"2016-03-01T00:00:00":[3],"2016-03-02T00:00:00":[3],"2016-03-03T00:00:00":[3],"2016-03-04T00:00:00":[3],"2016-03-07T00:00:00":[1,2,3,4],"2016-03-08T00:00:00":[3,1,2,4],"2016-03-09T00:00:00":[1,2,3,4],"2016-03-10T00:00:00":[3,1,2,4],"2016-03-11T00:00:00":[3,1,4],"2016-03-12T00:00:00":[3],"2016-03-13T00:00:00":[3],"2016-03-14T00:00:00":[3],"2016-03-15T00:00:00":[3],"2016-03-16T00:00:00":[3],"2016-03-17T00:00:00":[3],"2016-03-18T00:00:00":[3],"2016-03-19T00:00:00":[3],"2016-03-20T00:00:00":[3],"2016-03-21T00:00:00":[3,1,2,4],"2016-03-22T00:00:00":[3,1,2,4],"2016-03-23T00:00:00":[3,1,4],"2016-03-24T00:00:00":[1,2,3,4],"2016-03-28T00:00:00":[3],"2016-03-29T00:00:00":[3],"2016-03-30T00:00:00":[3],"2016-03-31T00:00:00":[3],"2016-04-01T00:00:00":[3],"2016-04-02T00:00:00":[3],"2016-04-03T00:00:00":[3],"2016-04-04T00:00:00":[3],"2016-04-05T00:00:00":[3],"2016-04-06T00:00:00":[3],"2016-04-07T00:00:00":[3],"2016-04-11T00:00:00":[1,2,3,4],"2016-04-12T00:00:00":[3,1,2,4],"2016-04-13T00:00:00":[3,1,2,4],"2016-04-14T00:00:00":[3,1,2,4],"2016-04-15T00:00:00":[3,1,4],"2016-04-16T00:00:00":[3],"2016-04-17T00:00:00":[3],"2016-04-18T00:00:00":[3,1,2,4],"2016-04-19T00:00:00":[3,1,2,4],"2016-04-20T00:00:00":[3,1,2,4],"2016-04-21T00:00:00":[3,1,2,4],"2016-04-22T00:00:00":[3,1,4],"2016-04-23T00:00:00":[3],"2016-04-24T00:00:00":[3],"2016-04-25T00:00:00":[3],"2016-04-26T00:00:00":[3],"2016-04-27T00:00:00":[3],"2016-04-28T00:00:00":[3],"2016-04-29T00:00:00":[3],"2016-04-30T00:00:00":[3],"2016-05-01T00:00:00":[3],"2016-05-02T00:00:00":[3,1,2,4],"2016-05-03T00:00:00":[3,1,2,4],"2016-05-04T00:00:00":[1,2,3,4],"2016-05-05T00:00:00":[1,2,4],"2016-05-06T00:00:00":[1,4],"2016-05-09T00:00:00":[1,2,4],"2016-05-10T00:00:00":[1,2,3,4],"2016-05-11T00:00:00":[1,2,3,4],"2016-05-12T00:00:00":[1,2,3,4],"2016-05-13T00:00:00":[1,2,4],"2016-05-16T00:00:00":[1,2,4],"2016-05-17T00:00:00":[1,2,3,4],"2016-05-18T00:00:00":[1,2,3,4],"2016-05-19T00:00:00":[1,2,3,4],"2016-05-20T00:00:00":[1,4],"2016-05-23T00:00:00":[3],"2016-05-24T00:00:00":[3],"2016-05-25T00:00:00":[3],"2016-05-26T00:00:00":[3],"2016-05-27T00:00:00":[3],"2016-05-28T00:00:00":[3],"2016-05-29T00:00:00":[3],"2016-05-30T00:00:00":[3,1,2,4],"2016-05-31T00:00:00":[3,1,2,4],"2016-06-01T00:00:00":[3,1,2,4],"2016-06-02T00:00:00":[3,1,2,4],"2016-06-03T00:00:00":[3,1,4],"2016-06-04T00:00:00":[3],"2016-06-06T00:00:00":[1,2,4],"2016-06-07T00:00:00":[1,2,4],"2016-06-08T00:00:00":[1,2,3,4],"2016-06-09T00:00:00":[1,2,3,4],"2016-06-10T00:00:00":[3,1,4],"2016-06-11T00:00:00":[3],"2016-06-12T00:00:00":[3],"2016-06-13T00:00:00":[3,1,2,4],"2016-06-14T00:00:00":[3,1,2,4],"2016-06-15T00:00:00":[3,1,2,4],"2016-06-16T00:00:00":[3,1,2,4],"2016-06-17T00:00:00":[1,4],"2016-06-20T00:00:00":[3],"2016-06-21T00:00:00":[3,2],"2016-06-22T00:00:00":[3,4],"2016-06-28T00:00:00":[2],"2016-06-29T00:00:00":[2],"2016-07-01T00:00:00":[3],"2016-07-02T00:00:00":[3],"2016-07-03T00:00:00":[3],"2016-07-04T00:00:00":[3],"2016-07-05T00:00:00":[3],"2016-07-06T00:00:00":[2],"2016-07-07T00:00:00":[2],"2016-07-08T00:00:00":[3],"2016-07-09T00:00:00":[3],"2016-07-10T00:00:00":[3],"2016-07-11T00:00:00":[3],"2016-07-12T00:00:00":[3],"2016-07-13T00:00:00":[3],"2016-07-14T00:00:00":[3],"2016-07-15T00:00:00":[3],"2016-07-16T00:00:00":[3],"2016-07-17T00:00:00":[3],"2016-07-18T00:00:00":[3,2],"2016-07-19T00:00:00":[3,2],"2016-07-20T00:00:00":[3,2,4],"2016-07-21T00:00:00":[3],"2016-07-22T00:00:00":[3],"2016-07-23T00:00:00":[3],"2016-07-25T00:00:00":[2,3],"2016-07-26T00:00:00":[3,2],"2016-07-27T00:00:00":[3,2],"2016-07-28T00:00:00":[3,2],"2016-07-29T00:00:00":[3],"2016-08-03T00:00:00":[2,3],"2016-08-04T00:00:00":[3],"2016-08-05T00:00:00":[3],"2016-08-07T00:00:00":[3],"2016-08-08T00:00:00":[3],"2016-08-09T00:00:00":[3],"2016-08-10T00:00:00":[3],"2016-08-11T00:00:00":[3,2],"2016-08-17T00:00:00":[4],"2016-08-18T00:00:00":[2],"2016-08-22T00:00:00":[2],"2016-08-23T00:00:00":[2],"2016-08-29T00:00:00":[2],"2016-08-30T00:00:00":[2],"2016-08-31T00:00:00":[2],"2016-09-01T00:00:00":[2,3],"2016-09-02T00:00:00":[3],"2016-09-03T00:00:00":[3],"2016-09-04T00:00:00":[3],"2016-09-05T00:00:00":[3],"2016-09-06T00:00:00":[3],"2016-09-07T00:00:00":[3],"2016-09-08T00:00:00":[3],"2016-09-09T00:00:00":[3,2],"2016-09-10T00:00:00":[3],"2016-09-11T00:00:00":[3],"2016-09-12T00:00:00":[3],"2016-09-13T00:00:00":[3],"2016-09-14T00:00:00":[3],"2016-09-15T00:00:00":[3],"2016-09-16T00:00:00":[3],"2016-09-17T00:00:00":[3],"2016-09-18T00:00:00":[3],"2016-09-19T00:00:00":[1,2,4],"2016-09-20T00:00:00":[1,2,4],"2016-09-21T00:00:00":[1,2,4],"2016-09-22T00:00:00":[1,2,4],"2016-09-23T00:00:00":[1,2,4],"2016-09-25T00:00:00":[3],"2016-09-26T00:00:00":[3,1,2,4],"2016-09-27T00:00:00":[3,1,2,4],"2016-09-28T00:00:00":[3,1,2,4],"2016-09-29T00:00:00":[1,2,3,4],"2016-09-30T00:00:00":[3,1,2,4],"2016-10-01T00:00:00":[3],"2016-10-02T00:00:00":[3],"2016-10-03T00:00:00":[3,1,2,4],"2016-10-04T00:00:00":[3,1,2,4],"2016-10-05T00:00:00":[3,1,2,4],"2016-10-06T00:00:00":[3,1,2,4],"2016-10-07T00:00:00":[1,2,4],"2016-10-10T00:00:00":[3],"2016-10-11T00:00:00":[3],"2016-10-12T00:00:00":[3],"2016-10-13T00:00:00":[3],"2016-10-14T00:00:00":[3],"2016-10-15T00:00:00":[3],"2016-10-16T00:00:00":[3],"2016-10-17T00:00:00":[3,1,2,4],"2016-10-18T00:00:00":[3,1,2,4],"2016-10-19T00:00:00":[3,1,2,4],"2016-10-20T00:00:00":[3,1,2,4],"2016-10-21T00:00:00":[3,1,2,4],"2016-10-22T00:00:00":[3],"2016-10-23T00:00:00":[3],"2016-10-24T00:00:00":[3,1,2,4],"2016-10-25T00:00:00":[3,1,2,4],"2016-10-26T00:00:00":[3,1,2,4],"2016-10-27T00:00:00":[3,1,2,4],"2016-10-28T00:00:00":[1,4],"2016-10-31T00:00:00":[1,2,4],"2016-11-01T00:00:00":[1,2,3,4],"2016-11-02T00:00:00":[1,2,3,4],"2016-11-03T00:00:00":[3,1,2,4],"2016-11-04T00:00:00":[3,1,4],"2016-11-05T00:00:00":[3],"2016-11-06T00:00:00":[3],"2016-11-07T00:00:00":[3],"2016-11-08T00:00:00":[3],"2016-11-10T00:00:00":[3],"2016-11-11T00:00:00":[3],"2016-11-12T00:00:00":[3],"2016-11-14T00:00:00":[1,2,3,4],"2016-11-15T00:00:00":[3,1,2,4],"2016-11-16T00:00:00":[1,2,3,4],"2016-11-17T00:00:00":[1,2,3,4],"2016-11-18T00:00:00":[1,3,4],"2016-11-19T00:00:00":[3],"2016-11-20T00:00:00":[3],"2016-11-21T00:00:00":[3,1,2,4],"2016-11-22T00:00:00":[3,1,2,4],"2016-11-23T00:00:00":[3,1,2,4],"2016-11-24T00:00:00":[3,1,2,4],"2016-11-25T00:00:00":[3,1,4],"2016-11-28T00:00:00":[1,2,4],"2016-11-29T00:00:00":[1,2,3,4],"2016-11-30T00:00:00":[1,2,3,4],"2016-12-01T00:00:00":[1,2,3,4],"2016-12-02T00:00:00":[1,4],"2016-12-05T00:00:00":[1,2,3,4],"2016-12-06T00:00:00":[3,1,2,4],"2016-12-07T00:00:00":[3,1,2,4],"2016-12-08T00:00:00":[1,2,3,4],"2016-12-09T00:00:00":[3,1,4],"2016-12-10T00:00:00":[3],"2016-12-11T00:00:00":[3],"2016-12-12T00:00:00":[3,1,2,4],"2016-12-13T00:00:00":[3,1,2,4],"2016-12-14T00:00:00":[3,1,2,4],"2016-12-15T00:00:00":[3,1,4],"2016-12-16T00:00:00":[3],"2016-12-17T00:00:00":[3],"2016-12-21T00:00:00":[4]};
+        HocPortal.Data.CalendarData[2017] = {"2017-01-09T00:00:00":[3],"2017-01-10T00:00:00":[3],"2017-01-11T00:00:00":[3],"2017-01-12T00:00:00":[3],"2017-01-15T00:00:00":[3],"2017-01-16T00:00:00":[3],"2017-01-17T00:00:00":[3],"2017-01-18T00:00:00":[3,4],"2017-01-19T00:00:00":[3],"2017-01-20T00:00:00":[3],"2017-01-21T00:00:00":[3],"2017-01-22T00:00:00":[3],"2017-01-23T00:00:00":[3],"2017-01-24T00:00:00":[3],"2017-01-25T00:00:00":[3],"2017-01-26T00:00:00":[3],"2017-01-27T00:00:00":[3],"2017-01-28T00:00:00":[3],"2017-01-29T00:00:00":[3],"2017-01-30T00:00:00":[1,2,3,4],"2017-01-31T00:00:00":[3,1,2,4],"2017-02-01T00:00:00":[1,2,3,4],"2017-02-02T00:00:00":[3,1,2,4],"2017-02-03T00:00:00":[3,1,4],"2017-02-04T00:00:00":[3],"2017-02-06T00:00:00":[1,2,4],"2017-02-07T00:00:00":[1,2,3,4],"2017-02-08T00:00:00":[1,2,3,4],"2017-02-09T00:00:00":[1,2,3,4],"2017-02-10T00:00:00":[1,4],"2017-02-13T00:00:00":[1,2,3,4],"2017-02-14T00:00:00":[3,1,2,4],"2017-02-15T00:00:00":[1,2,3,4],"2017-02-16T00:00:00":[1,2,3,4],"2017-02-17T00:00:00":[1,2,4],"2017-02-18T00:00:00":[3],"2017-02-19T00:00:00":[3],"2017-02-20T00:00:00":[3],"2017-02-21T00:00:00":[1,2,4],"2017-02-22T00:00:00":[1,2,4],"2017-02-23T00:00:00":[1,2,3,4],"2017-02-24T00:00:00":[3,1,4],"2017-02-25T00:00:00":[3],"2017-02-26T00:00:00":[3],"2017-02-27T00:00:00":[3],"2017-03-01T00:00:00":[3],"2017-03-02T00:00:00":[3],"2017-03-03T00:00:00":[3],"2017-03-06T00:00:00":[1,2,3,4],"2017-03-07T00:00:00":[3,1,2,4],"2017-03-08T00:00:00":[3,1,2,4],"2017-03-09T00:00:00":[3,1,2,4],"2017-03-10T00:00:00":[3,1,2,4],"2017-03-11T00:00:00":[3],"2017-03-12T00:00:00":[3],"2017-03-13T00:00:00":[3],"2017-03-14T00:00:00":[3],"2017-03-15T00:00:00":[3],"2017-03-16T00:00:00":[3],"2017-03-17T00:00:00":[3],"2017-03-18T00:00:00":[3],"2017-03-20T00:00:00":[1,2,3,4],"2017-03-21T00:00:00":[3,1,2,4],"2017-03-22T00:00:00":[3,1,4],"2017-03-23T00:00:00":[1,2,3,4],"2017-03-24T00:00:00":[1,3,4],"2017-03-25T00:00:00":[3],"2017-03-26T00:00:00":[3],"2017-03-27T00:00:00":[3],"2017-03-28T00:00:00":[3],"2017-03-29T00:00:00":[3],"2017-03-30T00:00:00":[3,4],"2017-03-31T00:00:00":[3],"2017-04-01T00:00:00":[3],"2017-04-02T00:00:00":[3],"2017-04-03T00:00:00":[3,1,2,4],"2017-04-04T00:00:00":[3,1,2,4],"2017-04-05T00:00:00":[3,1,2,4],"2017-04-06T00:00:00":[3,1,2,4],"2017-04-07T00:00:00":[3,1,2,4],"2017-04-09T00:00:00":[3],"2017-04-10T00:00:00":[3,1,2,4],"2017-04-11T00:00:00":[3,1,2,4],"2017-04-12T00:00:00":[3,1,2,4],"2017-04-13T00:00:00":[3,1,2,4],"2017-04-14T00:00:00":[3],"2017-04-19T00:00:00":[3],"2017-04-20T00:00:00":[3],"2017-04-21T00:00:00":[3],"2017-04-22T00:00:00":[3],"2017-04-23T00:00:00":[3],"2017-04-24T00:00:00":[3],"2017-04-25T00:00:00":[3],"2017-04-26T00:00:00":[3],"2017-04-27T00:00:00":[3],"2017-04-28T00:00:00":[3],"2017-05-01T00:00:00":[1,2,4],"2017-05-02T00:00:00":[1,2,4],"2017-05-03T00:00:00":[1,2,3,4],"2017-05-04T00:00:00":[3,1,2,4],"2017-05-05T00:00:00":[1,4],"2017-05-07T00:00:00":[3],"2017-05-08T00:00:00":[3,1,2,4],"2017-05-09T00:00:00":[3,1,2,4],"2017-05-10T00:00:00":[3,1,2,4],"2017-05-11T00:00:00":[1,2,3,4],"2017-05-12T00:00:00":[1,4],"2017-05-15T00:00:00":[1,2,3,4],"2017-05-16T00:00:00":[3,1,2,4],"2017-05-17T00:00:00":[3,1,2,4],"2017-05-18T00:00:00":[3,1,2,4],"2017-05-19T00:00:00":[1,3,4],"2017-05-20T00:00:00":[3],"2017-05-21T00:00:00":[3],"2017-05-22T00:00:00":[3],"2017-05-23T00:00:00":[3],"2017-05-24T00:00:00":[3],"2017-05-25T00:00:00":[3],"2017-05-26T00:00:00":[3],"2017-05-27T00:00:00":[3],"2017-05-28T00:00:00":[3],"2017-05-29T00:00:00":[3,1,2,4],"2017-05-30T00:00:00":[3,1,2,4],"2017-05-31T00:00:00":[3,1,2,4],"2017-06-01T00:00:00":[1,2,4],"2017-06-02T00:00:00":[1,4],"2017-06-04T00:00:00":[3],"2017-06-05T00:00:00":[3,1,2,4],"2017-06-06T00:00:00":[3,1,2,4],"2017-06-07T00:00:00":[1,2,3,4],"2017-06-08T00:00:00":[1,2,4],"2017-06-09T00:00:00":[1,4],"2017-06-10T00:00:00":[3],"2017-06-12T00:00:00":[1,2,3,4],"2017-06-13T00:00:00":[3,1,2,4],"2017-06-14T00:00:00":[1,2,3,4],"2017-06-15T00:00:00":[1,2,3,4],"2017-06-16T00:00:00":[1,4],"2017-06-19T00:00:00":[1,2,3,4],"2017-06-20T00:00:00":[3,1,2,4],"2017-06-21T00:00:00":[3,1,2,4],"2017-06-22T00:00:00":[3,2,4],"2017-06-23T00:00:00":[3],"2017-06-24T00:00:00":[3],"2017-06-25T00:00:00":[3],"2017-06-26T00:00:00":[3],"2017-06-27T00:00:00":[3],"2017-06-28T00:00:00":[3],"2017-06-29T00:00:00":[3],"2017-06-30T00:00:00":[3],"2017-07-03T00:00:00":[3],"2017-07-04T00:00:00":[3],"2017-07-05T00:00:00":[3],"2017-07-06T00:00:00":[3],"2017-07-07T00:00:00":[3],"2017-07-08T00:00:00":[3],"2017-07-09T00:00:00":[3],"2017-07-10T00:00:00":[3],"2017-07-11T00:00:00":[3],"2017-07-12T00:00:00":[3],"2017-07-13T00:00:00":[3],"2017-07-14T00:00:00":[3],"2017-07-15T00:00:00":[3],"2017-07-16T00:00:00":[3],"2017-07-17T00:00:00":[3],"2017-07-18T00:00:00":[3],"2017-07-19T00:00:00":[3,4],"2017-07-20T00:00:00":[3],"2017-07-21T00:00:00":[3,2],"2017-07-22T00:00:00":[3],"2017-07-23T00:00:00":[3],"2017-07-24T00:00:00":[3],"2017-07-25T00:00:00":[3],"2017-07-26T00:00:00":[3],"2017-07-27T00:00:00":[3],"2017-07-28T00:00:00":[3],"2017-07-29T00:00:00":[3],"2017-07-30T00:00:00":[3],"2017-07-31T00:00:00":[3],"2017-08-01T00:00:00":[3],"2017-08-02T00:00:00":[3],"2017-08-03T00:00:00":[3],"2017-08-04T00:00:00":[3],"2017-08-06T00:00:00":[3],"2017-08-07T00:00:00":[3],"2017-08-08T00:00:00":[3],"2017-08-09T00:00:00":[3],"2017-08-13T00:00:00":[3],"2017-08-14T00:00:00":[3,2],"2017-08-15T00:00:00":[3],"2017-08-16T00:00:00":[3,4],"2017-08-17T00:00:00":[3],"2017-08-18T00:00:00":[3],"2017-08-19T00:00:00":[3],"2017-08-20T00:00:00":[3],"2017-08-21T00:00:00":[3],"2017-08-22T00:00:00":[3,2],"2017-08-23T00:00:00":[3],"2017-08-24T00:00:00":[3],"2017-08-25T00:00:00":[3],"2017-08-26T00:00:00":[3],"2017-08-27T00:00:00":[3],"2017-08-28T00:00:00":[3],"2017-08-29T00:00:00":[3],"2017-08-30T00:00:00":[3],"2017-08-31T00:00:00":[3],"2017-09-07T00:00:00":[3],"2017-09-08T00:00:00":[3],"2017-09-09T00:00:00":[3],"2017-09-10T00:00:00":[3],"2017-09-11T00:00:00":[3,2],"2017-09-12T00:00:00":[3,2],"2017-09-13T00:00:00":[3,2],"2017-09-14T00:00:00":[3,2],"2017-09-15T00:00:00":[3,2],"2017-09-16T00:00:00":[3],"2017-09-17T00:00:00":[3],"2017-09-18T00:00:00":[3,1,2,4],"2017-09-19T00:00:00":[3,1,2,4],"2017-09-20T00:00:00":[3,1,2,4],"2017-09-21T00:00:00":[1,2,4],"2017-09-22T00:00:00":[1,4],"2017-09-25T00:00:00":[1,2,4],"2017-09-26T00:00:00":[1,2,4],"2017-09-27T00:00:00":[1,2,3,4],"2017-09-28T00:00:00":[3,1,2,4],"2017-09-29T00:00:00":[3,1,2,4],"2017-09-30T00:00:00":[3],"2017-10-01T00:00:00":[3],"2017-10-02T00:00:00":[3,1,2,4],"2017-10-03T00:00:00":[3,1,2,4],"2017-10-04T00:00:00":[3,1,2,4],"2017-10-05T00:00:00":[3,1,2,4],"2017-10-06T00:00:00":[3,1,2,4],"2017-10-07T00:00:00":[3],"2017-10-08T00:00:00":[3],"2017-10-09T00:00:00":[3],"2017-10-10T00:00:00":[3],"2017-10-11T00:00:00":[3],"2017-10-12T00:00:00":[3],"2017-10-13T00:00:00":[3],"2017-10-14T00:00:00":[3],"2017-10-15T00:00:00":[3],"2017-10-16T00:00:00":[3,1,2,4],"2017-10-17T00:00:00":[3,1,2,4],"2017-10-18T00:00:00":[3,1,2,4],"2017-10-19T00:00:00":[3,1,2,4],"2017-10-20T00:00:00":[3,1,2,4],"2017-10-21T00:00:00":[3],"2017-10-22T00:00:00":[3],"2017-10-23T00:00:00":[3,1,2,4],"2017-10-24T00:00:00":[3,1,2,4],"2017-10-25T00:00:00":[3,1,2,4],"2017-10-26T00:00:00":[3,1,2,4],"2017-10-27T00:00:00":[3,1,4],"2017-10-30T00:00:00":[1,2,3,4],"2017-10-31T00:00:00":[1,2,3,4],"2017-11-01T00:00:00":[1,2,3,4],"2017-11-02T00:00:00":[1,2,3,4],"2017-11-03T00:00:00":[3,1,4],"2017-11-04T00:00:00":[3],"2017-11-05T00:00:00":[3],"2017-11-06T00:00:00":[3,1,2,4],"2017-11-07T00:00:00":[3,1,2,4],"2017-11-08T00:00:00":[3,1,2,4],"2017-11-09T00:00:00":[3,1,2,4],"2017-11-10T00:00:00":[3],"2017-11-11T00:00:00":[3],"2017-11-12T00:00:00":[3],"2017-11-13T00:00:00":[3],"2017-11-14T00:00:00":[3],"2017-11-15T00:00:00":[3],"2017-11-16T00:00:00":[3],"2017-11-17T00:00:00":[3],"2017-11-18T00:00:00":[3],"2017-11-20T00:00:00":[1,2,4],"2017-11-21T00:00:00":[1,2,3,4],"2017-11-22T00:00:00":[3,1,2,4],"2017-11-23T00:00:00":[1,2,4],"2017-11-24T00:00:00":[1,4],"2017-11-27T00:00:00":[1,2,3,4],"2017-11-28T00:00:00":[3,1,2,4],"2017-11-29T00:00:00":[3,1,2,4],"2017-11-30T00:00:00":[1,2,3,4],"2017-12-01T00:00:00":[1,3,4],"2017-12-03T00:00:00":[3],"2017-12-04T00:00:00":[3,1,2,4],"2017-12-05T00:00:00":[3,1,2,4],"2017-12-06T00:00:00":[3,1,2,4],"2017-12-07T00:00:00":[3,1,2,4],"2017-12-08T00:00:00":[3,1,4],"2017-12-11T00:00:00":[1,2,3,4],"2017-12-12T00:00:00":[3,1,2,4],"2017-12-13T00:00:00":[3,1,2,4],"2017-12-14T00:00:00":[3,4],"2017-12-15T00:00:00":[3],"2017-12-16T00:00:00":[3],"2017-12-19T00:00:00":[3],"2017-12-20T00:00:00":[4]};
+        HocPortal.Data.CalendarData[2018] = {"2018-01-08T00:00:00":[3],"2018-01-09T00:00:00":[3,2],"2018-01-10T00:00:00":[3,2],"2018-01-11T00:00:00":[3],"2018-01-12T00:00:00":[3],"2018-01-15T00:00:00":[3],"2018-01-16T00:00:00":[3],"2018-01-17T00:00:00":[3,4],"2018-01-18T00:00:00":[3],"2018-01-19T00:00:00":[3],"2018-01-20T00:00:00":[3],"2018-01-21T00:00:00":[3],"2018-01-24T00:00:00":[3],"2018-01-25T00:00:00":[3],"2018-01-26T00:00:00":[3],"2018-01-27T00:00:00":[3],"2018-01-28T00:00:00":[3],"2018-01-29T00:00:00":[3,1,2,4],"2018-01-30T00:00:00":[1,2,4],"2018-01-31T00:00:00":[1,2,3,4],"2018-02-01T00:00:00":[3,1,2,4],"2018-02-02T00:00:00":[3,1,4],"2018-02-03T00:00:00":[3],"2018-02-04T00:00:00":[3],"2018-02-05T00:00:00":[3,1,2,4],"2018-02-06T00:00:00":[3,1,2,4],"2018-02-07T00:00:00":[1,2,3,4],"2018-02-08T00:00:00":[1,2,3,4],"2018-02-09T00:00:00":[1,4],"2018-02-12T00:00:00":[1,2,3,4],"2018-02-13T00:00:00":[1,2,3,4],"2018-02-14T00:00:00":[1,2,3,4],"2018-02-15T00:00:00":[1,2,3,4],"2018-02-16T00:00:00":[1],"2018-02-18T00:00:00":[3],"2018-02-19T00:00:00":[3],"2018-02-20T00:00:00":[3],"2018-02-21T00:00:00":[3,2],"2018-02-22T00:00:00":[2,3],"2018-02-23T00:00:00":[3],"2018-02-24T00:00:00":[3],"2018-02-25T00:00:00":[3],"2018-02-26T00:00:00":[1,2,3,4],"2018-02-27T00:00:00":[3,1,2,4],"2018-02-28T00:00:00":[3,1,2,4],"2018-03-01T00:00:00":[3,1,2,4],"2018-03-02T00:00:00":[3,1,2,4],"2018-03-04T00:00:00":[3],"2018-03-05T00:00:00":[3],"2018-03-06T00:00:00":[3],"2018-03-07T00:00:00":[3,2],"2018-03-08T00:00:00":[3],"2018-03-09T00:00:00":[3],"2018-03-10T00:00:00":[3],"2018-03-11T00:00:00":[3],"2018-03-12T00:00:00":[3],"2018-03-13T00:00:00":[3],"2018-03-14T00:00:00":[3],"2018-03-15T00:00:00":[3],"2018-03-16T00:00:00":[3],"2018-03-17T00:00:00":[3],"2018-03-18T00:00:00":[3],"2018-03-19T00:00:00":[1,2,3,4],"2018-03-20T00:00:00":[3,1,2,4],"2018-03-21T00:00:00":[3,1,2,4],"2018-03-22T00:00:00":[3,1,2,4],"2018-03-23T00:00:00":[3],"2018-03-24T00:00:00":[3],"2018-03-25T00:00:00":[3],"2018-03-26T00:00:00":[3,1,2,4],"2018-03-27T00:00:00":[3,1,2,4],"2018-03-28T00:00:00":[3,1,2,4],"2018-03-29T00:00:00":[1,2,4],"2018-03-30T00:00:00":[3],"2018-03-31T00:00:00":[3],"2018-04-01T00:00:00":[3],"2018-04-02T00:00:00":[3],"2018-04-03T00:00:00":[3],"2018-04-04T00:00:00":[3],"2018-04-05T00:00:00":[3],"2018-04-06T00:00:00":[3],"2018-04-07T00:00:00":[3],"2018-04-11T00:00:00":[3],"2018-04-12T00:00:00":[3],"2018-04-13T00:00:00":[3],"2018-04-16T00:00:00":[1,2,3,4],"2018-04-17T00:00:00":[3,1,2,4],"2018-04-18T00:00:00":[3,1,2,4],"2018-04-19T00:00:00":[3,1,2,4],"2018-04-20T00:00:00":[3],"2018-04-21T00:00:00":[3],"2018-04-22T00:00:00":[3],"2018-04-23T00:00:00":[3,1,2,4],"2018-04-24T00:00:00":[3,1,2,4],"2018-04-25T00:00:00":[3,1,2,4],"2018-04-26T00:00:00":[3,1,2,4],"2018-04-27T00:00:00":[3,1,4],"2018-04-28T00:00:00":[3],"2018-04-29T00:00:00":[3],"2018-04-30T00:00:00":[1,2,4],"2018-05-01T00:00:00":[1,2,3,4],"2018-05-02T00:00:00":[1,2,3,4],"2018-05-03T00:00:00":[3,1,2,4],"2018-05-04T00:00:00":[3,1,4],"2018-05-06T00:00:00":[3],"2018-05-07T00:00:00":[3,1,2,4],"2018-05-08T00:00:00":[3,1,2,4],"2018-05-09T00:00:00":[1,2,3,4],"2018-05-10T00:00:00":[1,2,3,4],"2018-05-11T00:00:00":[1,2,4],"2018-05-13T00:00:00":[3],"2018-05-14T00:00:00":[3],"2018-05-15T00:00:00":[3],"2018-05-16T00:00:00":[3],"2018-05-17T00:00:00":[3],"2018-05-22T00:00:00":[1,2,3,4],"2018-05-23T00:00:00":[3,1,2,4],"2018-05-24T00:00:00":[3,1,2,4],"2018-05-25T00:00:00":[1,3,4],"2018-05-26T00:00:00":[3],"2018-05-27T00:00:00":[3],"2018-05-28T00:00:00":[3,1,2,4],"2018-05-29T00:00:00":[3,1,2,4],"2018-05-30T00:00:00":[3,1,2,4],"2018-05-31T00:00:00":[3,1,2,4],"2018-06-01T00:00:00":[1,4],"2018-06-03T00:00:00":[3],"2018-06-04T00:00:00":[3,1,2,4],"2018-06-05T00:00:00":[3,1,2,4],"2018-06-06T00:00:00":[1,2,3,4],"2018-06-07T00:00:00":[3,1,2,4],"2018-06-08T00:00:00":[3,1,4],"2018-06-09T00:00:00":[3],"2018-06-10T00:00:00":[3],"2018-06-11T00:00:00":[3,1,2,4],"2018-06-12T00:00:00":[1,2,3,4],"2018-06-13T00:00:00":[3,1,2,4],"2018-06-14T00:00:00":[1,2,4],"2018-06-15T00:00:00":[3],"2018-06-16T00:00:00":[3],"2018-06-17T00:00:00":[3],"2018-06-18T00:00:00":[1,2,3,4],"2018-06-19T00:00:00":[3,1,2,4],"2018-06-20T00:00:00":[1,2,3,4],"2018-06-21T00:00:00":[1,3,4],"2018-06-25T00:00:00":[3],"2018-06-26T00:00:00":[3,2],"2018-06-27T00:00:00":[3],"2018-07-02T00:00:00":[3],"2018-07-03T00:00:00":[3],"2018-07-04T00:00:00":[3],"2018-07-05T00:00:00":[3],"2018-07-06T00:00:00":[3],"2018-07-07T00:00:00":[3],"2018-07-08T00:00:00":[3],"2018-07-09T00:00:00":[3],"2018-07-10T00:00:00":[3],"2018-07-11T00:00:00":[3],"2018-07-12T00:00:00":[3],"2018-07-13T00:00:00":[3],"2018-07-14T00:00:00":[3],"2018-07-15T00:00:00":[3],"2018-07-16T00:00:00":[3,2],"2018-07-17T00:00:00":[3],"2018-07-18T00:00:00":[3,4],"2018-07-19T00:00:00":[3],"2018-07-20T00:00:00":[3],"2018-07-21T00:00:00":[3],"2018-07-22T00:00:00":[3],"2018-07-23T00:00:00":[3],"2018-07-24T00:00:00":[3,2],"2018-07-25T00:00:00":[3],"2018-07-26T00:00:00":[3],"2018-07-27T00:00:00":[3],"2018-07-30T00:00:00":[3],"2018-07-31T00:00:00":[3],"2018-08-01T00:00:00":[3],"2018-08-02T00:00:00":[3],"2018-08-05T00:00:00":[3],"2018-08-06T00:00:00":[3],"2018-08-07T00:00:00":[3],"2018-08-08T00:00:00":[3],"2018-08-12T00:00:00":[3],"2018-08-13T00:00:00":[3],"2018-08-14T00:00:00":[3],"2018-08-17T00:00:00":[3],"2018-08-22T00:00:00":[4],"2018-09-01T00:00:00":[3],"2018-09-02T00:00:00":[3],"2018-09-03T00:00:00":[3],"2018-09-04T00:00:00":[3,2],"2018-09-05T00:00:00":[3],"2018-09-06T00:00:00":[3],"2018-09-07T00:00:00":[3,2],"2018-09-08T00:00:00":[3],"2018-09-09T00:00:00":[3],"2018-09-10T00:00:00":[3],"2018-09-11T00:00:00":[3],"2018-09-12T00:00:00":[3],"2018-09-13T00:00:00":[3],"2018-09-14T00:00:00":[3],"2018-09-15T00:00:00":[3],"2018-09-16T00:00:00":[3],"2018-09-17T00:00:00":[3,1,2,4],"2018-09-18T00:00:00":[3,1,2,4],"2018-09-19T00:00:00":[3,1,2,4],"2018-09-20T00:00:00":[1,2,4],"2018-09-21T00:00:00":[1,3,4],"2018-09-24T00:00:00":[1,2,3,4],"2018-09-25T00:00:00":[1,2,3,4],"2018-09-26T00:00:00":[1,2,3,4],"2018-09-27T00:00:00":[1,2,3,4],"2018-09-28T00:00:00":[3,1,4],"2018-09-29T00:00:00":[3],"2018-09-30T00:00:00":[3],"2018-10-01T00:00:00":[3,1,2,4],"2018-10-02T00:00:00":[3,1,2,4],"2018-10-03T00:00:00":[3,1,2,4],"2018-10-04T00:00:00":[3,1,2,4],"2018-10-05T00:00:00":[3,1,2,4],"2018-10-06T00:00:00":[3],"2018-10-07T00:00:00":[3],"2018-10-08T00:00:00":[3],"2018-10-09T00:00:00":[3],"2018-10-10T00:00:00":[3],"2018-10-11T00:00:00":[3],"2018-10-12T00:00:00":[3],"2018-10-13T00:00:00":[3],"2018-10-14T00:00:00":[3],"2018-10-15T00:00:00":[3,1,2,4],"2018-10-16T00:00:00":[3,1,2,4],"2018-10-17T00:00:00":[3,1,2,4],"2018-10-18T00:00:00":[3,1,2,4],"2018-10-19T00:00:00":[3,1,4],"2018-10-22T00:00:00":[1,2,3,4],"2018-10-23T00:00:00":[3,1,2,4],"2018-10-24T00:00:00":[3,1,2,4],"2018-10-25T00:00:00":[3,1,2,4],"2018-10-26T00:00:00":[3,1,4],"2018-10-29T00:00:00":[1,2,3,4],"2018-10-30T00:00:00":[1,2,3,4],"2018-10-31T00:00:00":[1,2,3,4],"2018-11-01T00:00:00":[1,2,3,4],"2018-11-02T00:00:00":[1,4],"2018-11-05T00:00:00":[1,2,3,4],"2018-11-06T00:00:00":[3,1,2,4],"2018-11-07T00:00:00":[3,1,2,4],"2018-11-08T00:00:00":[3,1,2,4],"2018-11-09T00:00:00":[3],"2018-11-16T00:00:00":[3],"2018-11-17T00:00:00":[3],"2018-11-18T00:00:00":[3],"2018-11-19T00:00:00":[3,1,2,4],"2018-11-20T00:00:00":[3,1,2,4],"2018-11-21T00:00:00":[1,2,3,4],"2018-11-22T00:00:00":[1,2,4],"2018-11-23T00:00:00":[1,4],"2018-11-26T00:00:00":[1,2,3,4],"2018-11-27T00:00:00":[3,1,2,4],"2018-11-28T00:00:00":[3,1,2,4],"2018-11-29T00:00:00":[3,1,2,4],"2018-11-30T00:00:00":[3,1,4],"2018-12-03T00:00:00":[1,2,4],"2018-12-04T00:00:00":[1,2,3,4],"2018-12-05T00:00:00":[1,2,3,4],"2018-12-06T00:00:00":[1,2,3,4],"2018-12-07T00:00:00":[3,1,4],"2018-12-08T00:00:00":[3],"2018-12-10T00:00:00":[1,2,3,4],"2018-12-11T00:00:00":[3,1,2,4],"2018-12-12T00:00:00":[3,1,2,4],"2018-12-13T00:00:00":[1,2,4],"2018-12-19T00:00:00":[4]};
+        HocPortal.Data.CalendarData[2019] = {"2019-01-06T00:00:00":[3],"2019-01-07T00:00:00":[3],"2019-01-08T00:00:00":[3],"2019-01-09T00:00:00":[3],"2019-01-10T00:00:00":[3],"2019-01-11T00:00:00":[3],"2019-01-12T00:00:00":[3],"2019-01-13T00:00:00":[3],"2019-01-14T00:00:00":[3],"2019-01-15T00:00:00":[3],"2019-01-16T00:00:00":[3,4],"2019-01-17T00:00:00":[3,2],"2019-01-18T00:00:00":[3,2],"2019-01-21T00:00:00":[3],"2019-01-22T00:00:00":[3],"2019-01-23T00:00:00":[3],"2019-01-24T00:00:00":[3],"2019-01-25T00:00:00":[3],"2019-01-28T00:00:00":[1,2,4],"2019-01-29T00:00:00":[1,2,4],"2019-01-30T00:00:00":[1,2,3,4],"2019-01-31T00:00:00":[3,1,2,4],"2019-02-01T00:00:00":[3,1,4],"2019-02-02T00:00:00":[3],"2019-02-03T00:00:00":[3],"2019-02-04T00:00:00":[1,2,3,4],"2019-02-05T00:00:00":[1,2,3,4],"2019-02-06T00:00:00":[1,2,4],"2019-02-07T00:00:00":[1,2,4],"2019-02-08T00:00:00":[1,4],"2019-02-10T00:00:00":[3],"2019-02-11T00:00:00":[3],"2019-02-12T00:00:00":[3],"2019-02-13T00:00:00":[2],"2019-02-18T00:00:00":[3],"2019-02-19T00:00:00":[3,1,2,4],"2019-02-20T00:00:00":[3,1,2,4],"2019-02-21T00:00:00":[1,2,3,4],"2019-02-22T00:00:00":[3,1,4],"2019-02-24T00:00:00":[3],"2019-02-25T00:00:00":[3,1,2,4],"2019-02-26T00:00:00":[3,1,2,4],"2019-02-27T00:00:00":[3,1,2,4],"2019-02-28T00:00:00":[3,1,2,4],"2019-03-01T00:00:00":[1,3,4],"2019-03-02T00:00:00":[3],"2019-03-03T00:00:00":[3],"2019-03-04T00:00:00":[3],"2019-03-05T00:00:00":[3],"2019-03-06T00:00:00":[3,2],"2019-03-07T00:00:00":[3],"2019-03-08T00:00:00":[3],"2019-03-09T00:00:00":[3],"2019-03-10T00:00:00":[3],"2019-03-11T00:00:00":[3],"2019-03-12T00:00:00":[3],"2019-03-13T00:00:00":[3,2],"2019-03-14T00:00:00":[3],"2019-03-15T00:00:00":[3],"2019-03-17T00:00:00":[2],"2019-03-18T00:00:00":[1,2,4],"2019-03-19T00:00:00":[1,2,3,4],"2019-03-20T00:00:00":[3,1,2,4],"2019-03-21T00:00:00":[3],"2019-03-22T00:00:00":[1,4],"2019-03-24T00:00:00":[3],"2019-03-25T00:00:00":[3],"2019-03-26T00:00:00":[3,2],"2019-03-27T00:00:00":[3],"2019-03-28T00:00:00":[3],"2019-03-29T00:00:00":[2,3],"2019-03-30T00:00:00":[3],"2019-03-31T00:00:00":[3],"2019-04-01T00:00:00":[1,2,4],"2019-04-02T00:00:00":[1,2,3,4],"2019-04-03T00:00:00":[1,2,3,4],"2019-04-04T00:00:00":[1,2,3,4],"2019-04-05T00:00:00":[3,1,4],"2019-04-06T00:00:00":[3],"2019-04-07T00:00:00":[3],"2019-04-08T00:00:00":[3,1,2,4],"2019-04-09T00:00:00":[3,1,2,4],"2019-04-10T00:00:00":[3,1,2,4],"2019-04-11T00:00:00":[3,1,2,4],"2019-04-12T00:00:00":[3,1,4],"2019-04-13T00:00:00":[3],"2019-04-14T00:00:00":[3],"2019-04-15T00:00:00":[3],"2019-04-16T00:00:00":[3],"2019-04-17T00:00:00":[3,4],"2019-04-21T00:00:00":[3],"2019-04-23T00:00:00":[3],"2019-04-24T00:00:00":[3],"2019-04-25T00:00:00":[3],"2019-04-26T00:00:00":[3],"2019-04-27T00:00:00":[3],"2019-04-28T00:00:00":[3],"2019-04-29T00:00:00":[1,2,3,4],"2019-04-30T00:00:00":[3,1,2,4],"2019-05-01T00:00:00":[3,1,2,4],"2019-05-02T00:00:00":[3,1,2,4],"2019-05-03T00:00:00":[3,1,4],"2019-05-04T00:00:00":[3],"2019-05-05T00:00:00":[3],"2019-05-06T00:00:00":[3,1,2,4],"2019-05-07T00:00:00":[3,1,2,4],"2019-05-08T00:00:00":[1,2,3,4],"2019-05-09T00:00:00":[1,2,4],"2019-05-10T00:00:00":[1,4],"2019-05-13T00:00:00":[1,2,3,4],"2019-05-14T00:00:00":[1,2,4],"2019-05-15T00:00:00":[1,2,4],"2019-05-16T00:00:00":[1,2,4],"2019-05-17T00:00:00":[1,4],"2019-05-18T00:00:00":[3],"2019-05-19T00:00:00":[3],"2019-05-20T00:00:00":[3],"2019-05-21T00:00:00":[3],"2019-05-22T00:00:00":[3],"2019-05-23T00:00:00":[3],"2019-05-24T00:00:00":[3],"2019-05-25T00:00:00":[3],"2019-05-26T00:00:00":[3],"2019-05-27T00:00:00":[1,2,3,4],"2019-05-28T00:00:00":[3,1,2,4],"2019-05-29T00:00:00":[3,1,2,4],"2019-05-30T00:00:00":[3,1,2,4],"2019-05-31T00:00:00":[3,1,4],"2019-06-01T00:00:00":[3],"2019-06-02T00:00:00":[3],"2019-06-03T00:00:00":[3,1,2,4],"2019-06-04T00:00:00":[1,2,4],"2019-06-05T00:00:00":[1,2,3,4],"2019-06-06T00:00:00":[1,2,4],"2019-06-07T00:00:00":[1,4],"2019-06-10T00:00:00":[1,2,3,4],"2019-06-11T00:00:00":[3,1,2,4],"2019-06-12T00:00:00":[3,1,2,4],"2019-06-13T00:00:00":[3,1,2,4],"2019-06-14T00:00:00":[3,1,4],"2019-06-17T00:00:00":[1,2,3,4],"2019-06-18T00:00:00":[1,2,3,4],"2019-06-19T00:00:00":[3,1,4],"2019-06-20T00:00:00":[3,1,2,4],"2019-06-21T00:00:00":[1,4],"2019-06-24T00:00:00":[3],"2019-06-25T00:00:00":[3],"2019-06-26T00:00:00":[3],"2019-06-27T00:00:00":[3],"2019-06-28T00:00:00":[3],"2019-07-04T00:00:00":[3],"2019-07-05T00:00:00":[3],"2019-07-06T00:00:00":[3],"2019-07-07T00:00:00":[3],"2019-07-08T00:00:00":[3],"2019-07-09T00:00:00":[3],"2019-07-14T00:00:00":[3],"2019-07-15T00:00:00":[3,2],"2019-07-16T00:00:00":[3],"2019-07-17T00:00:00":[3,4],"2019-07-18T00:00:00":[3],"2019-07-19T00:00:00":[3],"2019-07-20T00:00:00":[3],"2019-07-21T00:00:00":[3],"2019-07-22T00:00:00":[3],"2019-07-23T00:00:00":[3],"2019-07-24T00:00:00":[3],"2019-07-25T00:00:00":[3,2],"2019-07-26T00:00:00":[3],"2019-07-27T00:00:00":[3],"2019-07-28T00:00:00":[3],"2019-07-29T00:00:00":[3],"2019-07-30T00:00:00":[3,2],"2019-07-31T00:00:00":[3],"2019-08-05T00:00:00":[3],"2019-08-06T00:00:00":[3],"2019-08-07T00:00:00":[3],"2019-08-08T00:00:00":[3],"2019-08-09T00:00:00":[3],"2019-08-11T00:00:00":[3],"2019-08-12T00:00:00":[3],"2019-08-13T00:00:00":[3],"2019-08-14T00:00:00":[3],"2019-08-21T00:00:00":[2,4],"2019-08-25T00:00:00":[3],"2019-08-26T00:00:00":[3],"2019-08-27T00:00:00":[3],"2019-08-28T00:00:00":[3],"2019-08-29T00:00:00":[3],"2019-08-30T00:00:00":[3],"2019-09-05T00:00:00":[3],"2019-09-06T00:00:00":[3],"2019-09-07T00:00:00":[3],"2019-09-11T00:00:00":[4],"2019-09-19T00:00:00":[3],"2019-09-22T00:00:00":[3],"2019-09-23T00:00:00":[3],"2019-09-24T00:00:00":[3],"2019-09-25T00:00:00":[3],"2019-09-26T00:00:00":[3],"2019-09-27T00:00:00":[3],"2019-09-28T00:00:00":[3],"2019-09-29T00:00:00":[3],"2019-09-30T00:00:00":[3],"2019-10-01T00:00:00":[3],"2019-10-02T00:00:00":[3],"2019-10-03T00:00:00":[3],"2019-10-04T00:00:00":[3],"2019-10-05T00:00:00":[3],"2019-10-06T00:00:00":[3],"2019-10-07T00:00:00":[3],"2019-10-08T00:00:00":[3],"2019-10-10T00:00:00":[3],"2019-10-11T00:00:00":[3],"2019-10-12T00:00:00":[3],"2019-10-13T00:00:00":[3],"2019-10-14T00:00:00":[3],"2019-10-15T00:00:00":[3],"2019-10-16T00:00:00":[3],"2019-10-17T00:00:00":[3],"2019-10-18T00:00:00":[3],"2019-10-19T00:00:00":[3],"2019-10-20T00:00:00":[3],"2019-10-24T00:00:00":[3],"2019-10-25T00:00:00":[3],"2019-10-26T00:00:00":[3],"2019-10-30T00:00:00":[3],"2019-10-31T00:00:00":[3],"2019-11-01T00:00:00":[3],"2019-11-13T00:00:00":[3],"2019-11-14T00:00:00":[3],"2019-11-15T00:00:00":[3],"2019-11-18T00:00:00":[3],"2019-11-19T00:00:00":[3],"2019-11-25T00:00:00":[3],"2019-11-26T00:00:00":[3],"2019-11-27T00:00:00":[3],"2019-11-28T00:00:00":[3],"2019-11-29T00:00:00":[3],"2019-12-04T00:00:00":[3],"2019-12-05T00:00:00":[3],"2019-12-06T00:00:00":[3],"2019-12-07T00:00:00":[3],"2019-12-09T00:00:00":[3],"2019-12-10T00:00:00":[3],"2019-12-11T00:00:00":[3]};
+        HocPortal.Data.CalendarData[2020] = {"2020-01-13T00:00:00":[3],"2020-01-14T00:00:00":[3],"2020-01-15T00:00:00":[3],"2020-03-23T00:00:00":[3],"2020-03-24T00:00:00":[3],"2020-03-25T00:00:00":[3],"2020-03-30T00:00:00":[3],"2020-03-31T00:00:00":[3]};
+</script>
+
+                </div>
+            </article>
+        </div>
+        <div class="col-widget-news-events">
+            <article class="widget-container clearfix">
+                <a role="button" tabindex="-1" class="widget-accordion-panel-heading collapsed" data-toggle="collapse" href="#widget-news-events-content" aria-expanded="true" id="widget-news-events-btn" aria-controls="widget-news-events-content">
+                    <h2 class="widget-title serif">Information and Events</h2>
+                </a>
+                <div id="widget-news-events-content" class="widget-accordion-panel-body panel-collapse collapse" role="tabpanel" aria-labelledby="widget-news-events-btn">
+                    
+
+
+<div class="news-events-widget widget show-more-container2">
+    <div id="news-events-carousel" class="carousel slide">
+        <div class="carousel-controls">
+            <a href="#news-events-carousel" role="button" data-slide="prev" class="left carousel-control">
+                <i class="hoc-icon icon-left"></i><span class="sr-only">Previous event</span>
+            </a>
+            <a href="#news-events-carousel" role="button" data-slide="next" class="right carousel-control">
+                <i class="hoc-icon icon-right"></i><span class="sr-only">Next event</span>
+            </a>
+        </div>
+        <div role="listbox" class="carousel-inner">
+                    <div id="news-events-slide-0" aria-labelledby="news-events-indicator-0" 
+                          class="item active">
+                        <div class="row">
+                            <div class="col-md-5">
+                                    <div style="background-image:url(//www.ourcommons.ca/Content/CustomMessages/10598067/InfoEvent-PoppyDropping.jpg)" class="slide-image"></div>
+                            </div>
+                            <div class="col-md-7">
+                                <div id="collapse-news-event-2404" class="slide-content news-event-content-wrapper">
+                                    <div class="slide-content-inner news-event-content">
+                                        <h3 class="title">Virtual Poppy Drop</h3><span class="date"></span>
+                                        <p>In honour of Remembrance Day, the Poppy Drop—a virtual display of falling poppies—will be projected onto the Peace Tower every evening from October 25 to November 10, from 6:30 p.m. to 9:30 p.m., and on November 11 from 6:30 p.m. to midnight. Each of the 117,000 falling poppies represents one of those who gave up their life in service to our country. </p>
+                                    </div>
+                                </div>
+                                <div class="invisible news-event-show-more" aria-hidden="true">
+                                    <a class="news-event-show-more-link showmore-showless collapsed show-more-news" data-toggle="collapse" href="#collapse-news-event-2404" 
+                                       aria-expanded="false" aria-controls="collapse-news-event-2404">Show more&nbsp;<i class="hoc-icon icon-down"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="row footer-controls">
+                    <div class="col-md-7 col-md-push-5">
+                        <ol class="carousel-indicators" aria-hidden="true">
+                                <li role="presentation" id="news-events-indicator-0" data-target="#news-events-carousel" data-slide-to="0" 
+                                    aria-controls="news-events-slide-0" class="active"></li>
+                        </ol>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        var newsEventContentWrapperHeight = $(".news-event-content-wrapper").height();
+
+        newsEventShowHideMore();
+
+        //Remove auto slide
+        $('#news-events-carousel').carousel({
+            interval: false
+        });
+
+        $('#news-events-carousel').bind('slid.bs.carousel', function (e) {
+            newsEventShowHideMore(e);
+
+            // Hide non-active slides from screen readers.
+            $("[id^='news-events-slide-'][class*=active]").removeAttr("aria-hidden");
+            $("[id^='news-events-slide-']").not("[class*='active']").attr("aria-hidden", "true");
+        });
+
+        // Display show more button if the news is bigger than the container on slide finish
+        function newsEventShowHideMore(e) {
+            var newsEventActiveSlideContentHeight = $("#news-events-carousel > .carousel-inner .active .news-event-content").height();
+            if (newsEventContentWrapperHeight < newsEventActiveSlideContentHeight+10) {
+                $("#news-events-carousel .active .news-event-show-more").removeClass("invisible");
+            }
+        }
+
+        $(".news-event-show-more-link").click(function (e) {
+            if ($("#news-events-carousel .active .news-event-content-wrapper").hasClass("in")) {
+                $("#news-events-carousel .active .news-event-show-more-link").html("Show more&nbsp;<i class='hoc-icon icon-down'></i>");
+            }
+            else {
+                $("#news-events-carousel .active .news-event-show-more-link").html("Show less&nbsp;<i class='hoc-icon icon-up'></i>");
+            }
+        })
+    });
+</script>
+                </div>
+            </article>
+        </div>
+    </div>
+</div>
+
+
+<section class="related-links-widget">
+
+    <div class="ce-hoc-related-links-widget">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2>You Might Be Interested In ...</h2>
+                </div>
+            </div>
+            <div class="row">
+                        <div class="col-md-1_5 col-sm-4">
+                            <a href="/speaker/en/about" style="background-image:url(/Content/HocPortal/Images/Home/RelatedLink-RoleOfSpeaker-e.jpg)"
+                                data-analytics-eventcategory="HocPortal - Home - Promotional Bar" 
+                                data-analytics-eventaction="click"
+                                data-analytics-eventlabel="The Speaker of the House"
+                                class="ce-hoc-related-link">
+                                <div class="ce-hoc-related-link-txt"><span>The Speaker of the House</span></div>
+                            </a>
+                        </div>
+                        <div class="col-md-1_5 col-sm-4">
+                            <a href="//www.parl.ca/LegisInfo/Home.aspx?Mode=1&amp;Language=E" style="background-image:url(/Content/HocPortal/Images/Home/RelatedLink-LegislativeProcess-e.jpg)"
+                                data-analytics-eventcategory="HocPortal - Home - Promotional Bar" 
+                                data-analytics-eventaction="click"
+                                data-analytics-eventlabel="Bills (LEGIS&lt;em&gt;info&lt;/em&gt;)"
+                                class="ce-hoc-related-link">
+                                <div class="ce-hoc-related-link-txt"><span>Bills (LEGIS<em>info</em>)</span></div>
+                            </a>
+                        </div>
+                        <div class="col-md-1_5 col-sm-4">
+                            <a href="https://petitions.ourcommons.ca/en/Home/Index" style="background-image:url(/Content/HocPortal/Images/Home/RelatedLink-ePetitions-e.jpg)"
+                                data-analytics-eventcategory="HocPortal - Home - Promotional Bar" 
+                                data-analytics-eventaction="click"
+                                data-analytics-eventlabel="Petitions"
+                                class="ce-hoc-related-link">
+                                <div class="ce-hoc-related-link-txt"><span>Petitions</span></div>
+                            </a>
+                        </div>
+                        <div class="col-md-1_5 col-sm-4">
+                            <a href="/About/BuildingTheFuture/WestBlock/VirtualTours/chamber/en/" style="background-image:url(/Content/HocPortal/Images/Home/RelatedLink-VirtualTourOfHouse-e.jpg)"
+                                data-analytics-eventcategory="HocPortal - Home - Promotional Bar" 
+                                data-analytics-eventaction="click"
+                                data-analytics-eventlabel="Virtual Tour of the House"
+                                class="ce-hoc-related-link">
+                                <div class="ce-hoc-related-link-txt"><span>Virtual Tour of the House</span></div>
+                            </a>
+                        </div>
+                        <div class="col-md-1_5 col-sm-4">
+                            <a href="/en/info-for-media" style="background-image:url(/Content/HocPortal/Images/Home/RelatedLink-InfoForMedia-e.jpg)"
+                                data-analytics-eventcategory="HocPortal - Home - Promotional Bar" 
+                                data-analytics-eventaction="click"
+                                data-analytics-eventlabel="Info for Media"
+                                class="ce-hoc-related-link">
+                                <div class="ce-hoc-related-link-txt"><span>Info for Media</span></div>
+                            </a>
+                        </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+    <footer id="ce-hoc-footer" class="ce-hoc-footer hidden-print">
+		    <div class="ce-hoc-footer-top">
+		    	<div class="container">
+		    		<div class="row ce-hoc-footer-vc">
+		    			<div class="col-md-4">
+		    				<ul class="ce-hoc-footer-external-links">
+		    					<li><a href="https://sencanada.ca/en/" class="ce-hoc-footer-senate-link" data-analytics-eventcategory="HoC Common Elements Footer Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Senate" rel="external">Senate</a></li>
+		    					<li><a href="https://lop.parl.ca/About/Library/VirtualLibrary/library-of-parliament-e.html" class="" data-analytics-eventcategory="HoC Common Elements Footer Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Library of Parliament" rel="external">Library of Parliament</a></li>
+		    					<li><a href="https://pps.parl.ca/" class="" data-analytics-eventcategory="HoC Common Elements Footer Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Parliamentary Protective Service" rel="external">Parliamentary Protective Service</a></li>
+		    					<li><a href="http://jobs-emplois.parl.ca/?Language&#x3D;E" class="" data-analytics-eventcategory="HoC Common Elements Footer Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Employment at Parliament" >Employment at Parliament</a></li>
+		    				</ul>
+		    			</div>
+		    			<div class="col-md-4 text-center hidden-sm hidden-xs ce-hoc-footer-peacetower">
+		    			</div>
+		    			<div class="col-md-4">
+		    				<a href="//www.ourcommons.ca/en/social-media" class="ce-hoc-footer-social-media" data-analytics-eventcategory="HoC Common Elements Footer Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Follow Us" >
+		    					<div class="ce-hoc-footer-social-media-lblfollow">Follow Us</div>
+		    					<span class="ce-hoc-footer-social-media-box">
+		    						<i class="hoc-icon icon-social-twitter"></i>
+		    					</span>
+		    					<span class="ce-hoc-footer-social-media-box">
+		    						<i class="hoc-icon icon-social-linkedin"></i>
+		    					</span>
+		    					<span class="ce-hoc-footer-social-media-box">
+		    						<i class="hoc-icon icon-social-facebook"></i>
+		    					</span>
+		    					<span class="ce-hoc-footer-social-media-box">
+		    						<i class="hoc-icon icon-social-instagram"></i>
+		    					</span>
+		    				</a>
+		    			</div>
+		    		</div>
+		    	</div>
+		    </div>
+		    <div class="ce-hoc-footer-bottom">
+		    	<div class="container">
+		    		<div class="row">
+		    			<div class="col-sm-12 text-center">
+		    				<ul class="ce-hoc-footer-bottom-links">
+		    					<li><a href="//www.ourcommons.ca/en/important-notices" data-analytics-eventcategory="HoC Common Elements Footer Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Important Notices" >Important Notices</a></li>
+		    					<li><a href="//www.ourcommons.ca/en/open-data" data-analytics-eventcategory="HoC Common Elements Footer Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Open Data" >Open Data</a></li>
+		    					<li><a href="//www.ourcommons.ca/en/info-for-media" data-analytics-eventcategory="HoC Common Elements Footer Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Info for Media" >Info for Media</a></li>
+		    					<li><a href="//www.ourcommons.ca/en/site-map" data-analytics-eventcategory="HoC Common Elements Footer Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Site Map" >Site Map</a></li>
+		    					<li><a href="//www.ourcommons.ca/en/accessibility" data-analytics-eventcategory="HoC Common Elements Footer Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Accessibility" >Accessibility</a></li>
+		    					<li><a href="//www.ourcommons.ca/en/contact-us" data-analytics-eventcategory="HoC Common Elements Footer Main Menu" data-analytics-eventaction="click" data-analytics-eventlabel="Contact Us" >Contact Us</a></li>
+		    				</ul>
+		    			</div>
+		    		</div>
+		    	</div>
+		    </div>
+		</footer>
+    <script src="/bundles/appScript?v=3JZ-NbxSpPhGM9MR2eh1BZoQpIcN8y3vUp5aA4K2kBY1"></script>
+
+    <script src="/bundles/appScriptMoment?v=RsKe_VOlq_cvH3ff0sIXDUy9rEwC9yleDGxOGL7xtEI1"></script>
+
+    
+    <script src="/assets/Scripts/App/Config/Locales/ressources.js"></script>
+
+    <script src="/assets/scripts/knockout-3.4.0.js"></script>
+
+    <script src="/assets/Scripts/App/Common/signalR.init.js"></script>
+
+    <script src="/assets/Scripts/App/ViewModels/NowInTheHouse/nowInTheHouseViewModel.js"></script>
+
+    <script src="/assets/Scripts/ko.localizationbinding.js"></script>
+
+    <script src="/assets/scripts/jquery.countdown-2.0.4.js"></script>
+
+    <script src="//apps.ourcommons.ca/ParlDataWidgets/Scripts/widgets.js"></script>
+
+
+    
+    <script type="text/javascript">
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip({ delay: { "show": 300, "hide": 50 }, placement: "top" })
+        })
+
+
+        $(function () {
+
+            var resizeTimer;
+
+            // For accessibility purposes, only inlude the aria-expanded attribute when the
+            // accordian panels appear collapsable.
+            function checkWindowSize() {
+                if (window.matchMedia('(max-width: 767px)').matches) {
+                    $('.widget-accordion-panel-heading:not([aria-expanded])').each(function () {
+                        var controlState = $('#' + $(this).attr('aria-controls')).attr('aria-expanded');
+                        if (controlState == null) { controlState = false; }
+                        $(this).attr('aria-expanded', controlState);
+                    });
+                } else {
+                    $('.widget-accordion-panel-heading[aria-expanded]').removeAttr('aria-expanded');
+                }
+            }
+
+            $(window).resize(function () {
+                // For performance reasons, throttle the firing of the resize event
+                // so that it doesn't fire as often.
+                clearTimeout(resizeTimer);
+                resizeTimer = setTimeout(checkWindowSize, 250);
+            });
+
+            checkWindowSize();
+        })
+    </script>
+</body>
+
+</html>

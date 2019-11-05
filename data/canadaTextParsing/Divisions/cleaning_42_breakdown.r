@@ -18,9 +18,11 @@ bd42 <- bd42 %>%
   mutate(division_ID = paste0(parliament_ID, "-",session_ID, "-", division_number))
 
 bd42 <- bd42 %>%
-  merge(interm, by = "division_ID") %>%
-  bd42[, c(2,3,4,1,)]
+  merge(interm, by = "division_ID") 
   
+bd42 <- bd42[, c(2,3,4,1,5,11,10,6,7,8,9)]
+
+write.csv(bd42 , file = "42nd_breakdown.csv")  
   
   
 
