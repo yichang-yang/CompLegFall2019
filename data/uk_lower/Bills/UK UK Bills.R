@@ -67,6 +67,7 @@ result <- result %>%
 result <- dplyr::rename(result, date_introduced = date, bill_type = bill.type, bill_title = title, member_name = sponsors...sponsor.printed, session = session...display.name )
 names(result)
 
+levels(result$session)
 
 ####Session and House
 
@@ -125,6 +126,8 @@ final <- final %>%
 
   
 write_csv(final, "bill.csv")
+
+hey <- read_csv("bill.csv")
 
          
     
