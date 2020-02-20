@@ -120,14 +120,16 @@ euclidean_distance <- function(points1, points2) {
 ###################
 
 # (2) define k-means algorithm
-K_means <- function(x, k, n_iter) {
+K_means <- function(x, k, n_iter, centers=NULL) {
   # create empty vectorized lists based on the size of iterations
   clusterHistory <- vector(n_iter, mode="list")
   centerHistory <- vector(n_iter, mode="list")
   # generate starting centers
   # sample some centers, 5 for example
-  centers <- x[sample(nrow(x), k),]
-  
+  if(is.null(centers)){
+    centers <- x[sample(nrow(x), k),]
+  }
+
   # iterate for set number of times
   for(i in 1:n_iter) {
     # calculate distance of each word from center
@@ -144,8 +146,27 @@ K_means <- function(x, k, n_iter) {
   list(clusters=clusterHistory, centers=centerHistory)
 }
 
+
+
 # execute function
 our_output <- K_means(DTM, k=2, n_iter=10)
 # compare to the "real-thing"
+
+
 kmeans_output <- kmeans(DTM, centers = 2, iter.max = 10, nstart = 1)
 print(kmeans_output)
+
+training_data <- DTM[sample(nrow(DTM), 71), ]
+
+test_data <-DTM[sample(nrow(DTM), 23), ]
+
+
+
+test <- K_means(training_data, k=2, n_iter=10, centers=NULL)
+
+K_means(test_data, k=2, n_iter=10, centers=test$centers[10][[1]])
+
+
+
+
+
